@@ -1,0 +1,73 @@
+{
+	"ID": "20211216204046-iu7t0ee",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211216204046-iu7t0ee",
+		"title": "2021-12-16",
+		"updated": "20211216204356"
+	},
+	"Children": [
+		{
+			"ID": "20211216204046-odn9o7n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211216204046-odn9o7n",
+				"updated": "20211216204354"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cat /proc/interrupts\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211216204136-3zpbbpf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211216204136-3zpbbpf",
+				"updated": "20211216204313"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo cat /sys/kernel/debug/gpio\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211216204356-jio6sni",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211216204356-jio6sni",
+				"updated": "20211216204356"
+			}
+		}
+	]
+}

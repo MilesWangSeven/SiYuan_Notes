@@ -1,0 +1,19 @@
+{
+	"ID": "20211216205424-05ma8sy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211216205424-05ma8sy",
+		"title": "GPIO",
+		"updated": "20211216205424"
+	},
+	"Children": [
+		{
+			"ID": "20211216205424-n1z4o16",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211216205424-n1z4o16",
+				"updated": "20211216205424"
+			}
+		}
+	]
+}

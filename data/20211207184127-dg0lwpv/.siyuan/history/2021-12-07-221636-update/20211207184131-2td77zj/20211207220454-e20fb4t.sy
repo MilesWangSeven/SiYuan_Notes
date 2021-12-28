@@ -1,0 +1,218 @@
+{
+	"ID": "20211207220454-e20fb4t",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211207220454-e20fb4t",
+		"title": "GCC",
+		"updated": "20211207221624"
+	},
+	"Children": [
+		{
+			"ID": "20211207221114-ne6cbmf",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20211207221114-ne6cbmf",
+				"updated": "20211207221120"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20211207221120-zgmhifg",
+					"Type": "NodeSuperBlock",
+					"Properties": {
+						"id": "20211207221120-zgmhifg",
+						"updated": "20211207221120"
+					},
+					"Children": [
+						{
+							"Type": "NodeSuperBlockOpenMarker"
+						},
+						{
+							"Type": "NodeSuperBlockLayoutMarker",
+							"Data": "row"
+						},
+						{
+							"ID": "20211207221006-z67sd56",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20211207221006-z67sd56",
+								"updated": "20211207221032"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20211207221032-3u3h3mk"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20211207220454-nyydu8s",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20211207220454-nyydu8s",
+								"updated": "20211207220536"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "ld -verbose\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"Type": "NodeSuperBlockCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20211207220536-0ht7ss5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211207220536-0ht7ss5",
+				"updated": "20211207220701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "添加字段"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".cmd_parser"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211207220644-ojq7p52",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211207220644-ojq7p52",
+				"updated": "20211207220644"
+			}
+		},
+		{
+			"ID": "20211207220645-3pzckza",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211207220645-3pzckza",
+				"updated": "20211207221624"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "bGRpZg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  .gnu.version    : { *(.gnu.version) }\n  .gnu.version_d  : { *(.gnu.version_d) }\n  .gnu.version_r  : { *(.gnu.version_r) }\n  .cmd_parser :\n  {\n    . = ALIGN(64 / 8);\n    PROVIDE_HIDDEN (__cmd_parser_start = .);\n    KEEP (*(CMDS))\n    PROVIDE_HIDDEN (__cmd_parser_end = .);\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211207221124-ojimyxx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211207221124-ojimyxx",
+				"updated": "20211207221124"
+			}
+		},
+		{
+			"ID": "20211207221559-vnjkklo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211207221559-vnjkklo",
+				"updated": "20211207221607"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Yw=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "if defined(__GNUC__) /* GCC Compiler */\n#define SECTION(x) __attribute__((section(x)))\n#define CMD_USED __attribute__((used))"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211207221609-t8lvhik",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211207221609-t8lvhik",
+				"updated": "20211207221609"
+			}
+		}
+	]
+}

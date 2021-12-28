@@ -1,0 +1,295 @@
+{
+	"ID": "20211208212123-tmlsm8a",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211208212123-tmlsm8a",
+		"title": "2021-12-08",
+		"updated": "20211208213416"
+	},
+	"Children": [
+		{
+			"ID": "20211208212525-80q2g9i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212525-80q2g9i",
+				"updated": "20211208213335"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211208212538-yvyi5dr"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211208213335-dcn9lan"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211208212123-h9rdv18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212123-h9rdv18",
+				"updated": "20211208212138"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "电能测量"
+				}
+			]
+		},
+		{
+			"ID": "20211208212139-gakv1p7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212139-gakv1p7",
+				"updated": "20211208212140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://patents.google.com/patent/CN104569902B"
+				}
+			]
+		},
+		{
+			"ID": "20211208212654-c41yzu3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212654-c41yzu3",
+				"updated": "20211208212952"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "TI 电能计量计算公式"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.ti.com.cn/cn/lit/an/slaa577g/slaa577g.pdf?ts=1638968481783\u0026ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fsolution%252Fcn%252Felectricity-meter%253FkeyMatch%253D%25E7%2594%25B5%25E8%25A1%25A8%2B%25E4%25B8%2589%25E7%259B%25B8"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211208212259-rp1ikl7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212259-rp1ikl7",
+				"updated": "20211208213110"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Google Patents 一种数字式电能表功耗测量装置及方法 电能计算公式"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://patents.google.com/patent/CN104569902B"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211208213308-8dsu65z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208213308-8dsu65z",
+				"updated": "20211208213311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优化"
+				}
+			]
+		},
+		{
+			"ID": "20211208213354-okd5w1y",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20211208213354-okd5w1y",
+				"updated": "20211208213416"
+			},
+			"Children": [
+				{
+					"ID": "20211208213354-zznklfo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20211208213354-zznklfo",
+						"updated": "20211208213416"
+					},
+					"Children": [
+						{
+							"ID": "20211208213416-mylllrk",
+							"Type": "NodeSuperBlock",
+							"Properties": {
+								"id": "20211208213416-mylllrk",
+								"updated": "20211208213416"
+							},
+							"Children": [
+								{
+									"Type": "NodeSuperBlockOpenMarker"
+								},
+								{
+									"Type": "NodeSuperBlockLayoutMarker",
+									"Data": "col"
+								},
+								{
+									"ID": "20211208212519-efzu9rf",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20211208212519-efzu9rf",
+										"updated": "20211208213347"
+									},
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "谐波状态下高精度电能计量技术"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://e.jd.com/30734704.html"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20211208213354-ig945al",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20211208213354-ig945al"
+									}
+								},
+								{
+									"Type": "NodeSuperBlockCloseMarker"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211208212952-va42pe4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212952-va42pe4",
+				"updated": "20211208212952"
+			}
+		},
+		{
+			"ID": "20211208212311-21sbo4e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212311-21sbo4e",
+				"updated": "20211208212311"
+			}
+		},
+		{
+			"ID": "20211208212301-y7mtfbj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212301-y7mtfbj",
+				"updated": "20211208212301"
+			}
+		}
+	]
+}

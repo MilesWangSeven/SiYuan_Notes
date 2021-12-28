@@ -1,0 +1,302 @@
+{
+	"ID": "20211228192632-wh3c8xm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211228192632-wh3c8xm",
+		"title": "2021-12-28",
+		"updated": "20211228194145"
+	},
+	"Children": [
+		{
+			"ID": "20211228192632-50opa9t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228192632-50opa9t",
+				"updated": "20211228192918"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211207212606-71mgk26"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211228192707-qv6aj96"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20211228192917-hagzay5"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228193434-sliyl3z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228193434-sliyl3z",
+				"updated": "20211228193541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链接 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "使用VSCode进行linux内核代码阅读和开发"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://blog.csdn.net/xhnmdlfl/article/details/117911630"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228192918-b9fvmwk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228192918-b9fvmwk",
+				"updated": "20211228192957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ubuntu下"
+				}
+			]
+		},
+		{
+			"ID": "20211228192958-2enmaxo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211228192958-2enmaxo",
+				"updated": "20211228193023"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo apt install bear\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211228193200-df91aw4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228193200-df91aw4",
+				"updated": "20211228193250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "make 前增加bear即可生成compile_commands.json"
+				}
+			]
+		},
+		{
+			"ID": "20211228193207-qkzmy04",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211228193207-qkzmy04",
+				"updated": "20211228193221"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "bear make ${build_opts}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211228193738-1lvlwx6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228193738-1lvlwx6",
+				"updated": "20211228193744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置clangd"
+				}
+			]
+		},
+		{
+			"ID": "20211228193835-x9xb3k5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20211228193835-x9xb3k5",
+				"updated": "20211228193927"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "c2hlbGw="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "--compile-commands-dir=/home/miles/Linux/ebf_linux_kernel\n--background-index\n--completion-style=detailed\n--header-insertion=never\n--log=info\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20211228193928-ewel1lk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228193928-ewel1lk",
+				"updated": "20211228194145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果报错 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "unknown target ABI"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20211228194115-j5lktxb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211228194115-j5lktxb",
+				"updated": "20211228194116"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "https://github.com/clangd/clangd/issues/734"
+				}
+			]
+		}
+	]
+}

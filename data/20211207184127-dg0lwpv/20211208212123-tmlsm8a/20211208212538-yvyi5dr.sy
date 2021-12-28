@@ -1,0 +1,19 @@
+{
+	"ID": "20211208212538-yvyi5dr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20211208212538-yvyi5dr",
+		"title": "电力",
+		"updated": "20211208212538"
+	},
+	"Children": [
+		{
+			"ID": "20211208212538-h1xo4wt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20211208212538-h1xo4wt",
+				"updated": "20211208212538"
+			}
+		}
+	]
+}
