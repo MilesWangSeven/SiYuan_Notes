@@ -1,0 +1,159 @@
+{
+	"ID": "20220423104329-vnhs1hp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220423104329-vnhs1hp",
+		"title": "2022-04-23",
+		"updated": "20220423124015"
+	},
+	"Children": [
+		{
+			"ID": "20220423104329-68q9xpe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220423104329-68q9xpe",
+				"updated": "20220423104542"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "树莓派"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "换源"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "http://mirrors.ustc.edu.cn/help/raspbian.htm"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://mirrors.ustc.edu.cn/help/raspbian.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "l"
+				}
+			]
+		},
+		{
+			"ID": "20220423104448-uqw3guk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220423104448-uqw3guk",
+				"updated": "20220423104930"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 "
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "KODI"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220423104931-51b824n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220423104931-51b824n",
+				"updated": "20220423124003"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 "
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "docker"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220423124015-el7v8zx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220423124015-el7v8zx",
+				"updated": "20220423124015"
+			}
+		}
+	]
+}
