@@ -1,0 +1,139 @@
+{
+	"ID": "20220426215553-ttz1ghh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220426215553-ttz1ghh",
+		"title": "2022-04-26",
+		"updated": "20220426221543"
+	},
+	"Children": [
+		{
+			"ID": "20220426221215-kyezsw5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220426221215-kyezsw5",
+				"updated": "20220426221312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以太网帧包含48位目的地址和16位以太网类型字段"
+				}
+			]
+		},
+		{
+			"ID": "20220426221317-4k6ltla",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220426221317-4k6ltla",
+				"updated": "20220426221324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以太网类型字段"
+				}
+			]
+		},
+		{
+			"ID": "20220426221344-la9gj8j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220426221344-la9gj8j",
+				"updated": "20220426221344"
+			},
+			"Children": [
+				{
+					"ID": "20220426221344-8mfgu4l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220426221344-8mfgu4l"
+					},
+					"Children": [
+						{
+							"ID": "20220426221314-gt1ii7r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220426221314-gt1ii7r",
+								"updated": "20220426221314"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "0x0800 IPv4"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220426221344-kmjvvz0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220426221344-kmjvvz0"
+					},
+					"Children": [
+						{
+							"ID": "20220426221109-8df0wnf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220426221109-8df0wnf",
+								"updated": "20220426221116"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "0x0806 ARP"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220426221344-x2hworj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220426221344-x2hworj"
+					},
+					"Children": [
+						{
+							"ID": "20220426221116-l5bnm4e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220426221116-l5bnm4e",
+								"updated": "20220426221131"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "0x86DD IPv6"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220426221132-bm9bdro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220426221132-bm9bdro",
+				"updated": "20220426221543"
+			}
+		}
+	]
+}

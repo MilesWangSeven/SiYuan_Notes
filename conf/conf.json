@@ -260,44 +260,20 @@
   },
   {
     "children": {
-  "blockId": "20211228192707-qv6aj96",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "vscode"
-  },
-  {
-    "children": {
-  "blockId": "20211228192917-hagzay5",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "clangd"
-  },
-  {
-    "children": {
-  "blockId": "20220423104937-7g9tfje",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "KODI"
-  },
-  {
-    "children": {
-  "blockId": "20220423124021-ak8q497",
-  "instance": "Editor"
-},
-    "instance": "Tab",
-    "title": "docker"
-  },
-  {
-    "active": true,
-    "children": {
   "blockId": "20220425205652-npy0uvf",
   "instance": "Editor"
 },
     "instance": "Tab",
     "title": "2022-04-25"
+  },
+  {
+    "active": true,
+    "children": {
+  "blockId": "20220426215553-ttz1ghh",
+  "instance": "Editor"
+},
+    "instance": "Tab",
+    "title": "2022-04-26"
   }
 ],
     "height": "",
@@ -854,7 +830,7 @@
     "memo": true
   },
   "stat": {
-    "docCount": 70
+    "docCount": 71
   },
   "api": {
     "token": "oylvf4hp7d8ojz2j"
