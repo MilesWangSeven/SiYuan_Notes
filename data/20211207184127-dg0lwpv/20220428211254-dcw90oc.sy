@@ -1,0 +1,692 @@
+{
+	"ID": "20220428211254-dcw90oc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220428211254-dcw90oc",
+		"title": "2022-04-28",
+		"updated": "20220428214613"
+	},
+	"Children": [
+		{
+			"ID": "20220428211254-vku9bte",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428211254-vku9bte",
+				"updated": "20220428211530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "网络应用的典型结构："
+				}
+			]
+		},
+		{
+			"ID": "20220428211547-hdg79dk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220428211547-hdg79dk",
+				"updated": "20220428211547"
+			},
+			"Children": [
+				{
+					"ID": "20220428211547-pdw0hee",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428211547-pdw0hee"
+					},
+					"Children": [
+						{
+							"ID": "20220428211535-c9uvh5f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428211535-c9uvh5f",
+								"updated": "20220428211535"
+							},
+							"Children": [
+								{
+									"Type": "NodeTag",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeTagOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "客户机/服务器"
+										},
+										{
+											"Type": "NodeTagCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220428211547-eesif24",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428211547-eesif24"
+					},
+					"Children": [
+						{
+							"ID": "20220428211504-kkdcxo7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428211504-kkdcxo7",
+								"updated": "20220428211543"
+							},
+							"Children": [
+								{
+									"Type": "NodeTag",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeTagOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "对等"
+										},
+										{
+											"Type": "NodeTagCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220428211547-91z2han",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428211547-91z2han",
+				"updated": "20220428212607"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "对等"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				}
+			]
+		},
+		{
+			"ID": "20220428211813-eg5itc6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220428211813-eg5itc6",
+				"updated": "20220428211813"
+			},
+			"Children": [
+				{
+					"ID": "20220428211813-tzyogqt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428211813-tzyogqt"
+					},
+					"Children": [
+						{
+							"ID": "20220428211729-xvmmyvl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428211729-xvmmyvl",
+								"updated": "20220428211742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分布式设计，没有专门的服务器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220428211813-lqk3uoq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428211813-lqk3uoq"
+					},
+					"Children": [
+						{
+							"ID": "20220428211742-4ixjyyk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428211742-4ixjyyk",
+								"updated": "20220428211800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个应用既是客户机，又是服务器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220428211808-t26ci3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428211808-t26ci3h",
+				"updated": "20220428211952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如Skype[SKYPE]、BitTorrent[BT]，这种应用称为 "
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "对等"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 或 P2P 应用"
+				}
+			]
+		},
+		{
+			"ID": "20220428211953-60rqh3d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428211953-60rqh3d",
+				"updated": "20220428212101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一组P2P应用共同形成一个应用网络，称为覆盖网络"
+				}
+			]
+		},
+		{
+			"ID": "20220428212102-086hwyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428212102-086hwyo",
+				"updated": "20220428212405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "P2P网络的主要问题是"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "发现服务"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。发现 对等方，然后向其他活跃的对等方发出请求"
+				}
+			]
+		},
+		{
+			"ID": "20220428212407-8imwv17",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428212407-8imwv17",
+				"updated": "20220428212639"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "应用程序编程接口"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（API)："
+				}
+			]
+		},
+		{
+			"ID": "20220428212428-zv4khyu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428212428-zv4khyu",
+				"updated": "20220428212553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "表述其所需的网络操作（例如：建立连接、写入或读取数据）"
+				}
+			]
+		},
+		{
+			"ID": "20220428212554-o6xxezh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428212554-o6xxezh",
+				"updated": "20220428212721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最流行的API被称为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "套接字"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 或 Berkeley 套接字"
+				}
+			]
+		},
+		{
+			"ID": "20220428212808-ila57d3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428212808-ila57d3",
+				"updated": "20220428212833"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标准化进程"
+				}
+			]
+		},
+		{
+			"ID": "20220428212835-qkhkvhq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428212835-qkhkvhq",
+				"updated": "20220428212900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Internet 工程任务组（IETF)"
+				}
+			]
+		},
+		{
+			"ID": "20220428213328-cneyure",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220428213328-cneyure",
+				"updated": "20220428213328"
+			},
+			"Children": [
+				{
+					"ID": "20220428213328-2fk38a9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428213328-2fk38a9"
+					},
+					"Children": [
+						{
+							"ID": "20220428213117-999lr8l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428213117-999lr8l",
+								"updated": "20220428213151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Internet架构委员会（IAB)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220428213328-3jv51xl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428213328-3jv51xl"
+					},
+					"Children": [
+						{
+							"ID": "20220428213133-prk7hcr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428213133-prk7hcr",
+								"updated": "20220428213154"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Internet工程指导组（IESG）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220428213155-tdqg8xg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428213155-tdqg8xg",
+				"updated": "20220428213530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个官方标准都以1个RFC(征求意见）形式发布，不是所有RFC都是标准，只有标准跟踪类别RFC才是"
+				}
+			]
+		},
+		{
+			"ID": "20220428213532-de1fa5v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428213532-de1fa5v",
+				"updated": "20220428213619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他类别包括： 当前最佳实践（BCP)、信息、实验 和 历史"
+				}
+			]
+		},
+		{
+			"ID": "20220428213619-0ulidiv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428213619-0ulidiv",
+				"updated": "20220428213755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他 标准制定组（SDO): "
+				}
+			]
+		},
+		{
+			"ID": "20220428213805-5rq7763",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428213805-5rq7763",
+				"updated": "20220428213936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "电气和电子工程师学会（IEEE),关注第3层（网络层）以下标准，例如Wi-Fi 以太网"
+				}
+			]
+		},
+		{
+			"ID": "20220428213816-5322p3b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428213816-5322p3b",
+				"updated": "20220428214011"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "万维网联盟（W3C)，关注应用层协议，特别是Web技术（例如基于HTML语法）"
+				}
+			]
+		},
+		{
+			"ID": "20220428213827-zytwxs6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428213827-zytwxs6",
+				"updated": "20220428214037"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "国际电信联盟（ITU) 标准化的协议用于电话或蜂窝网络"
+				}
+			]
+		},
+		{
+			"ID": "20220428214038-egx5yw6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428214038-egx5yw6",
+				"updated": "20220428214107"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "实现和软件分发"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220428214108-fpsvu6l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428214108-fpsvu6l",
+				"updated": "20220428214212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标准的TCP/IP实现来自加州大学伯克利分校计算机系统研究组（CSRG),通过4.x BSD系统发布"
+				}
+			]
+		},
+		{
+			"ID": "20220428214613-s1x1w87",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220428214613-s1x1w87",
+				"updated": "20220428214613"
+			},
+			"Children": [
+				{
+					"ID": "20220428214613-eo21tio",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428214613-eo21tio"
+					},
+					"Children": [
+						{
+							"ID": "20220428214555-z00c9ke",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428214555-z00c9ke",
+								"updated": "20220428214559"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "windows"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220428214613-cv7slag",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428214613-cv7slag"
+					},
+					"Children": [
+						{
+							"ID": "20220428214600-k39x9xf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428214600-k39x9xf",
+								"updated": "20220428214603"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Linux"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220428214613-00l9ebs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220428214613-00l9ebs"
+					},
+					"Children": [
+						{
+							"ID": "20220428214604-4qw66q5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220428214604-4qw66q5",
+								"updated": "20220428214606"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "BSD"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220428213505-9ze5658",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220428213505-9ze5658",
+				"updated": "20220428213505"
+			}
+		}
+	]
+}
