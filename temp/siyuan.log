@@ -421,3 +421,36 @@ I 2022/04/27 21:39:11 conf.go:523: post-init database size [1.1 MB], tree stat [
 I 2022/04/27 21:39:12 working.go:113: kernel booted
 E 2022/04/27 21:39:32 rhy.go:42: get version meta info failed: [Get "https://rhythm.b3log.org/version/siyuan?ver=1.5.4": context deadline exceeded (Client.Timeout exceeded while awaiting headers)]
 I 2022/04/27 22:35:13 conf.go:359: exited kernel
+I 2022/04/28 21:08:07 working.go:95: 
+      ___                                   ___           ___           ___
+     /  /\        ___           ___        /__/\         /  /\         /__/\
+    /  /:/_      /  /\         /__/|       \  \:\       /  /::\        \  \:\
+   /  /:/ /\    /  /:/        |  |:|        \  \:\     /  /:/\:\        \  \:\
+  /  /:/ /::\  /__/::\        |  |:|    ___  \  \:\   /  /:/~/::\   _____\__\:\
+ /__/:/ /:/\:\ \__\/\:\__   __|__|:|   /__/\  \__\:\ /__/:/ /:/\:\ /__/::::::::\
+ \  \:\/:/~/:/    \  \:\/\ /__/::::\   \  \:\ /  /:/ \  \:\/:/__\/ \  \:\~~\~~\/
+  \  \::/ /:/      \__\::/    ~\~~\:\   \  \:\  /:/   \  \::/       \  \:\  ~~~
+   \__\/ /:/       /__/:/       \  \:\   \  \:\/:/     \  \:\        \  \:\
+     /__/:/        \__\/         \__\/    \  \::/       \  \:\        \  \:\
+     \__\/                                 \__\/         \__\/         \__\/
+I 2022/04/28 21:08:09 runtime.go:57: kernel is booting:
+    * ver [1.5.4]
+    * arch [amd64]
+    * runtime mode [prod]
+    * working directory [D:\Users\Caltr\AppData\Local\Programs\SiYuan\resources]
+    * read only [false]
+    * container [std]
+    * database [ver=20211124]
+    * workspace directory [D:\Users\Caltr\Documents\SiYuan, data 6.7 MB]
+    * rsync [version 3.2.4dev  protocol version 31]
+    * pandoc [pandoc.exe 2.13]
+I 2022/04/28 21:08:09 conf.go:257: local serve path [http://192.168.31.201:6806]
+I 2022/04/28 21:08:09 serve.go:68: kernel is booting [http://127.0.0.1:6806]
+I 2022/04/28 21:08:10 conf.go:507: pre-init database size [1.1 MB]
+I 2022/04/28 21:08:10 index.go:136: use existing database for box [20210808180117-czj9bvb]
+I 2022/04/28 21:08:10 index.go:136: use existing database for box [20211207183149-m2c1waq]
+I 2022/04/28 21:08:10 index.go:136: use existing database for box [20211207184127-dg0lwpv]
+I 2022/04/28 21:08:10 conf.go:523: post-init database size [1.1 MB], tree stat [count=72, size=1.0 MB]
+I 2022/04/28 21:08:11 working.go:113: kernel booted
+E 2022/04/28 21:46:04 block_query.go:491: query scan field failed: sql: Rows are closed
+I 2022/04/28 22:43:48 conf.go:359: exited kernel
