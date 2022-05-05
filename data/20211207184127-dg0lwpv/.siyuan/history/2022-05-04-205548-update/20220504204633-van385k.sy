@@ -1,0 +1,145 @@
+{
+	"ID": "20220504204633-van385k",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220504204633-van385k",
+		"title": "2022-05-04",
+		"updated": "20220504205537"
+	},
+	"Children": [
+		{
+			"ID": "20220504204633-jz5xkx3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504204633-jz5xkx3",
+				"updated": "20220504204732"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Internet 地址结构"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220504204733-2ffke73",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504204733-2ffke73",
+				"updated": "20220504204948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Internet的网络层地址，又称IP地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220504204948-c1avp67",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504204948-c1avp67",
+				"updated": "20220504205043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "连接到Internet的每个设备至少有一个IP地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220504205043-ytjjcdw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504205043-ytjjcdw",
+				"updated": "20220504205107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IP路由器实现的转发程序使用IP地址来识别流量去向"
+				}
+			]
+		},
+		{
+			"ID": "20220504205108-z24xzck",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504205108-z24xzck",
+				"updated": "20220504205221"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "而IP地址通常被在Internet中的DNS屏蔽在用户视线之外"
+				}
+			]
+		},
+		{
+			"ID": "20220504205221-r2hcqvb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504205221-r2hcqvb",
+				"updated": "20220504205337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当用户需要自己建立网络或DNS某种原因失效时，用户需直接处理IP地址"
+				}
+			]
+		},
+		{
+			"ID": "20220504205338-8ab33mn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504205338-8ab33mn",
+				"updated": "20220504205451"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一台设备接入全球性的Internet时，地址分配必须经过协商，不会重复使用网络中其他地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220504205455-0g086kv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504205455-0g086kv",
+				"updated": "20220504205537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于专用网络（如局域网），也必须经过协商，避免专网内的地址重复"
+				}
+			]
+		},
+		{
+			"ID": "20220504205537-v0xm8h4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220504205537-v0xm8h4",
+				"updated": "20220504205537"
+			}
+		}
+	]
+}

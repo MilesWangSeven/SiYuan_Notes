@@ -1,0 +1,296 @@
+{
+	"ID": "20220505223148-8wucivz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220505223148-8wucivz",
+		"title": "2022-05-05",
+		"updated": "20220505224015"
+	},
+	"Children": [
+		{
+			"ID": "20220505223148-genf90x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223148-genf90x",
+				"updated": "20220505223321"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "地址类型"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				}
+			]
+		},
+		{
+			"ID": "20220505223422-rhw8an0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220505223422-rhw8an0",
+				"updated": "20220505223422"
+			},
+			"Children": [
+				{
+					"ID": "20220505223422-zk46qlj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220505223422-zk46qlj"
+					},
+					"Children": [
+						{
+							"ID": "20220505223323-3575piq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220505223323-3575piq",
+								"updated": "20220505223338"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单播地址"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220505223422-vh8kvv6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220505223422-vh8kvv6"
+					},
+					"Children": [
+						{
+							"ID": "20220505223338-7n9pqwg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220505223338-7n9pqwg",
+								"updated": "20220505223346"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "广播地址"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220505223422-i4sx100",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220505223422-i4sx100"
+					},
+					"Children": [
+						{
+							"ID": "20220505223346-ro7wsj8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220505223346-ro7wsj8",
+								"updated": "20220505223349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组播地址"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220505223422-lgurutf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220505223422-lgurutf"
+					},
+					"Children": [
+						{
+							"ID": "20220505223350-nbmvgbp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220505223350-nbmvgbp",
+								"updated": "20220505223404"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "任播地址"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220505223323-vewh074",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223323-vewh074",
+				"updated": "20220505223323"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分类寻址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220505223423-okbr1qr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223423-okbr1qr",
+				"updated": "20220505223554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单播IP地址：网络部分 （网络号）+ 主机地址（主机号）"
+				}
+			]
+		},
+		{
+			"ID": "20220505223555-myds2nu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223555-myds2nu",
+				"updated": "20220505223630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "地址空间五大类："
+				}
+			]
+		},
+		{
+			"ID": "20220505223631-jpctydj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223631-jpctydj",
+				"updated": "20220505223706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "A类：0 + 7位自由号 + 24位主机号"
+				}
+			]
+		},
+		{
+			"ID": "20220505223707-rdewi6e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223707-rdewi6e",
+				"updated": "20220505223735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "B类：10 + 14位自由号 + 16位主机号"
+				}
+			]
+		},
+		{
+			"ID": "20220505223736-a33grjj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223736-a33grjj",
+				"updated": "20220505224015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "C类： 110 + 21位自由号 + 8位主机号 （注：如常见的局域网 192.x.x.x)"
+				}
+			]
+		},
+		{
+			"ID": "20220505223845-fad46pa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223845-fad46pa",
+				"updated": "20220505223928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "D类： 1110 + 组播地址（28位自由）"
+				}
+			]
+		},
+		{
+			"ID": "20220505223929-weze4m3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223929-weze4m3",
+				"updated": "20220505223949"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "E类： 1111 + 保留（28位自由）"
+				}
+			]
+		},
+		{
+			"ID": "20220505223807-3sd7bwd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220505223807-3sd7bwd",
+				"updated": "20220505223807"
+			}
+		}
+	]
+}
