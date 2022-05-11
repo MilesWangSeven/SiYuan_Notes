@@ -1,0 +1,217 @@
+{
+	"ID": "20220511205428-lre5op9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220511205428-lre5op9",
+		"title": "2022-05-11",
+		"updated": "20220511213420"
+	},
+	"Children": [
+		{
+			"ID": "20220511205428-y4c89u7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205428-y4c89u7",
+				"updated": "20220511205441"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "聚合"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220511205444-iqllf6b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205444-iqllf6b",
+				"updated": "20220511205715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "取消分类结构的IP地址，能分配各种尺寸的IP地址块。但没有帮助减少路由表的条目数。"
+				}
+			]
+		},
+		{
+			"ID": "20220511205736-5szdx68",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205736-5szdx68",
+				"updated": "20220511205833"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路由器检查每个到达的数报中的目标IP地址，找到一条匹配的路由表条目，从该条目中提取数据报中的下一跳。"
+				}
+			]
+		},
+		{
+			"ID": "20220511205909-hncdlf7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205909-hncdlf7",
+				"updated": "20220511210053"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分层路由研究，网络拓扑排列为一棵树，并以对这个网络拓扑“敏感”方式来分配地址。可获得一个非常小的路由表，同时保持到所有目的地的最短路径。"
+				}
+			]
+		},
+		{
+			"ID": "20220511212047-6j5j1ma",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511212047-6j5j1ma",
+				"updated": "20220511212320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数值相邻差异为前缀最后一个bit的差异,可以聚合"
+				}
+			]
+		},
+		{
+			"ID": "20220511212321-61kc1bn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511212321-61kc1bn",
+				"updated": "20220511212401"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如190.154.27.0/26 和190.154.27.64/26可以聚合为190.154.27.0/25"
+				}
+			]
+		},
+		{
+			"ID": "20220511212619-8yil1wf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511212619-8yil1wf",
+				"updated": "20220511212847"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "特殊用途地址"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220511212838-58dz63r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511212838-58dz63r",
+				"updated": "20220511212855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv4"
+				}
+			]
+		},
+		{
+			"ID": "20220511212855-igjbk1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511212855-igjbk1n",
+				"updated": "20220511212903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前缀\t\t\t特殊用途"
+				}
+			]
+		},
+		{
+			"ID": "20220511212904-njv5anu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511212904-njv5anu",
+				"updated": "20220511212929"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0.0.0.0/8\t\t本地网络中的主机"
+				}
+			]
+		},
+		{
+			"ID": "20220511212930-d75glk6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511212930-d75glk6",
+				"updated": "20220511213004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10.0.0.0/8\t专用网络（内联网）的地址。这种地址不会出现在公共Internet中"
+				}
+			]
+		},
+		{
+			"ID": "20220511213215-2azthze",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511213215-2azthze",
+				"updated": "20220511213349"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "127.0.0.0/8\tInternet主机回送地址（同一计算机）。通常只用127.0.0.1"
+				}
+			]
+		},
+		{
+			"ID": "20220511213349-yc2ucn1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511213349-yc2ucn1",
+				"updated": "20220511213420"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "169.254.0.0/16 \"链路本地\"地址，只用于一条链路，"
+				}
+			]
+		}
+	]
+}

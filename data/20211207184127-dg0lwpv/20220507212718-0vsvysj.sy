@@ -1,0 +1,517 @@
+{
+	"ID": "20220507212718-0vsvysj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220507212718-0vsvysj",
+		"title": "2022-05-07",
+		"updated": "20220507221253"
+	},
+	"Children": [
+		{
+			"ID": "20220507212718-01nd996",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507212718-01nd996",
+				"updated": "20220507212930"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可变长度子网掩码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（VLSM)"
+				}
+			]
+		},
+		{
+			"ID": "20220507213031-lj6dus2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507213031-lj6dus2",
+				"updated": "20220507213258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如 可以 128.32.x.x站点下："
+				}
+			]
+		},
+		{
+			"ID": "20220507213259-off8lmm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507213259-off8lmm",
+				"updated": "20220507213259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "128.32.1.1/24"
+				}
+			]
+		},
+		{
+			"ID": "20220507213300-dsrjyj6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507213300-dsrjyj6",
+				"updated": "20220507213332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "128.32.230.129/26"
+				}
+			]
+		},
+		{
+			"ID": "20220507213342-u2hh8ln",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507213342-u2hh8ln",
+				"updated": "20220507213507"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "128.32.2.9/24 --\u003e 128.32.2.126/24 --\u003e 128.32.2.129/25"
+				}
+			]
+		},
+		{
+			"ID": "20220507213908-e7jbu8u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507213908-e7jbu8u",
+				"updated": "20220507214300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主机数受IP地址中没有被网络/子网号使用的剩余位限制。对于/26，有32 - 26 = 6位（64台主机）"
+				}
+			]
+		},
+		{
+			"ID": "20220507214534-ktu3u3w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507214534-ktu3u3w",
+				"updated": "20220507214744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个子网只包含两台主机情形，路由器之间被一条点到点链路连接，每个端点都需要分配一个IP地址，常见做法是IPv4使用/31为前缀，也有建议IPv6使用/127为前缀"
+				}
+			]
+		},
+		{
+			"ID": "20220507214824-32t9rkm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507214824-32t9rkm",
+				"updated": "20220507214832"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "广播地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220507214833-vitbcch",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507214833-vitbcch",
+				"updated": "20220507214951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "子网广播地址，网络/子网部分设置适当值，主机部分的所有位置为1"
+				}
+			]
+		},
+		{
+			"ID": "20220507214953-78hl1xz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507214953-78hl1xz",
+				"updated": "20220507215807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如128.32.1.0/24，子网掩码取反与子网中任意计算机的地址按位或运算，得到128.32.1.255，历史上看，也被称为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定向广播"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220507215212-l1jjz8x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507215212-l1jjz8x",
+				"updated": "20220507215409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "理论上，这种广播可作为一个单独数据报通过路由直至目标子网，再作为一组广播数据报发给子网所有主机。"
+				}
+			]
+		},
+		{
+			"ID": "20220507215444-kvwvuv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507215444-kvwvuv8",
+				"updated": "20220507215608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可形成目标地址为128.32.255.255的数据报，将它发送到Internet。这时，该数据报将发给目标站中的所有主机。"
+				}
+			]
+		},
+		{
+			"ID": "20220507215703-w4o7zho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507215703-w4o7zho",
+				"updated": "20220507215824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特殊用途地址255.255.255.255被保留为本地网络广播，也称为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "有限广播"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，根本不会被路由器转发"
+				}
+			]
+		},
+		{
+			"ID": "20220507215824-pef3c9o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507215824-pef3c9o",
+				"updated": "20220507215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意，虽然路由器可能不转发广播，但子网广播和连接再同一网络的计算机本地网络广播将工作，除非被终端主机明确禁用。这种广播不需要路由器参与。"
+				}
+			]
+		},
+		{
+			"ID": "20220507215954-lzvxa69",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507215954-lzvxa69",
+				"updated": "20220507220049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv6没有任何广播地址，仅使用"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "组播地址"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220507220050-72788on",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507220050-72788on",
+				"updated": "20220507220109"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv6地址和接口标识符"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220507220110-038gd5w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507220110-038gd5w",
+				"updated": "20220507220217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了比IPv4地址长4倍这个因素。IPv6地址使用特殊前缀表示一个地址范围。"
+				}
+			]
+		},
+		{
+			"ID": "20220507220309-l9u4f3j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220507220309-l9u4f3j",
+				"updated": "20220507220309"
+			},
+			"Children": [
+				{
+					"ID": "20220507220309-vyptuon",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220507220309-vyptuon"
+					},
+					"Children": [
+						{
+							"ID": "20220507220218-423kf4r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220507220218-423kf4r",
+								"updated": "20220507220321"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "节点本地，只用于同一计算机中通信"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220507220309-neo83t4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220507220309-neo83t4"
+					},
+					"Children": [
+						{
+							"ID": "20220507220243-q2l2l15",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220507220243-q2l2l15",
+								"updated": "20220507220344"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链路本地，只用于同一网络链路或IPv6前缀中的节点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220507220309-xwcnbqz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220507220309-xwcnbqz"
+					},
+					"Children": [
+						{
+							"ID": "20220507220247-wmdf6nj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220507220247-wmdf6nj",
+								"updated": "20220507220350"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全球性，Internet范围"
+								}
+							]
+						},
+						{
+							"ID": "20220507220435-1osjzxq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220507220435-1osjzxq",
+								"updated": "20220507220814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "IPv6中，大部分节点通常在同一个网络接口使用多个地址，包括组播地址。虽然IPv4中也支持，但不常见。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220507220830-y8j1dx6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507220830-y8j1dx6",
+				"updated": "20220507220858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另一个范围层次为站点本地，使用前缀fec0::/10"
+				}
+			]
+		},
+		{
+			"ID": "20220507221110-02qhxr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507221110-02qhxr0",
+				"updated": "20220507221253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链路本地IPv6地址（和一些全球性IPv6地址）使用接口标识符(IID)作为一个单播IPv6地址的分配基础。除地址是二进制000开始以外，IID在所有情况下都作为IPv6地址的低序位"
+				}
+			]
+		},
+		{
+			"ID": "20220507221042-w7plfcn",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220507221042-w7plfcn",
+				"updated": "20220507221042"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20220507220106-lmxelvd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220507220106-lmxelvd",
+						"updated": "20220507220106"
+					}
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220507212844-gnvqnl8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220507212844-gnvqnl8",
+				"updated": "20220507212844"
+			}
+		}
+	]
+}

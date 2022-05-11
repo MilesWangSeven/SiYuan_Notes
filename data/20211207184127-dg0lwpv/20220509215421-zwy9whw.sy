@@ -1,0 +1,504 @@
+{
+	"ID": "20220509215421-zwy9whw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220509215421-zwy9whw",
+		"title": "2022-05-09",
+		"updated": "20220509222406"
+	},
+	"Children": [
+		{
+			"ID": "20220509215421-pbcv7d5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509215421-pbcv7d5",
+				"updated": "20220509220319"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv6流量通过仅支持IPv4的网络"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220509215620-9mk10mh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509215620-9mk10mh",
+				"updated": "20220509215853"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "隧道接口ISATAP,IPv6地址为 fe80::5efe:10.153.141.135%2"
+				}
+			]
+		},
+		{
+			"ID": "20220509215706-aw4vik8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509215706-aw4vik8",
+				"updated": "20220509215753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "物理地址: 0A-99-8D-87实际是IPv4的IPv4地址10.153.141.135的十六进制编码"
+				}
+			]
+		},
+		{
+			"ID": "20220509215802-107oidw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509215802-107oidw",
+				"updated": "20220509220046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用OUI(00-00-5E)是由IANA分配的，被用于与十六进制fe组合，表示一个嵌入的IPv4地址"
+				}
+			]
+		},
+		{
+			"ID": "20220509215929-pxi6iod",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509215929-pxi6iod",
+				"updated": "20220509220158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个组合与标准的链路本地前缀fe80::/10组合，最终形成地址fe80::5efe:10.153.141.135"
+				}
+			]
+		},
+		{
+			"ID": "20220509220200-wlm68ex",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509220200-wlm68ex",
+				"updated": "20220509220300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "附加在地址结尾的%2在windows中称为区域ID，表示主机中对应于IPv6地址的接口索引号"
+				}
+			]
+		},
+		{
+			"ID": "20220509220300-l7zs0bg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509220300-l7zs0bg",
+				"updated": "20220509220446"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "CIDR和聚合"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220509220439-fxveme4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220509220439-fxveme4",
+				"updated": "20220509220722"
+			},
+			"Children": [
+				{
+					"ID": "20220509220453-y2gyi1b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220509220453-y2gyi1b"
+					},
+					"Children": [
+						{
+							"ID": "20220509220453-w2mbr36",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220509220453-w2mbr36",
+								"updated": "20220509220521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "到1994年，一半以上B类地址已被分配。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220509220508-i964zkq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220509220508-i964zkq"
+					},
+					"Children": [
+						{
+							"ID": "20220509220508-8tmry5k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220509220508-8tmry5k",
+								"updated": "20220509220551"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "32位的IPv4地址不足以应付Internet的发展规模"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220509220551-at0i79m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220509220551-at0i79m",
+						"updated": "20220509220722"
+					},
+					"Children": [
+						{
+							"ID": "20220509220551-8v77n0f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220509220551-8v77n0f",
+								"updated": "20220509220722"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全球性路由表的条目数（每个网络号对应一条），1995年大约为65000个条目，目前仍在增长中。随着越来越多的A/B/C类路由条目出现，路由性能将受影响"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220509220912-ai4sar4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509220912-ai4sar4",
+				"updated": "20220509221052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些问题收到IETF中的ROAD(路由和寻址）小组关注，提出短期解决方案清除IP地址的分类缺陷，并提高层次化分配的IP地址的聚合能力。"
+				}
+			]
+		},
+		{
+			"ID": "20220509221052-857v5zo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221052-857v5zo",
+				"updated": "20220509221103"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv6被设想用于解决问题2"
+				}
+			]
+		},
+		{
+			"ID": "20220509221104-gcyehzc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221104-gcyehzc",
+				"updated": "20220509221117"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "前缀"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220509221117-huvqt3d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221117-huvqt3d",
+				"updated": "20220509221257"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "帮助缓解IPv4地址（特别是B类地址）压力，分类寻址方案通常使用一个类似VLSM的方案，扩展Internet路由系统以支持 "
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "无类别域间路由"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（CIDR)"
+				}
+			]
+		},
+		{
+			"ID": "20220509221307-n66upe3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221307-n66upe3",
+				"updated": "20220509221416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提供了包含多于255台但少于65536台主机。"
+				}
+			]
+		},
+		{
+			"ID": "20220509221419-0tpvi3j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221419-0tpvi3j",
+				"updated": "20220509221419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不只是单个B类或多个C类网络号可分配给站点"
+				}
+			]
+		},
+		{
+			"ID": "20220509221423-oizu4ji",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221423-oizu4ji",
+				"updated": "20220509221516"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用CIDR，未经预定义的任何地址范围可作为一个类的一部分，但需要一个类似子网掩码的掩码，有时也成为CIDR掩码"
+				}
+			]
+		},
+		{
+			"ID": "20220509221516-t5a5a2c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221516-t5a5a2c",
+				"updated": "20220509221547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CIDR掩码不再局限于一个站点，而对全球性路由系统都可见"
+				}
+			]
+		},
+		{
+			"ID": "20220509221547-qnjiag2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221547-qnjiag2",
+				"updated": "20220509221643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此除网络号，核心Internet路由器必须能解释和处理掩码。这个数字组合称为网络前缀，用于IPv4/6的管理"
+				}
+			]
+		},
+		{
+			"ID": "20220509221643-533hwx7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221643-533hwx7",
+				"updated": "20220509221801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "消除了IP地址中网络和主机号的预定义分隔，将使更细粒度IP地址分配范围成为可能"
+				}
+			]
+		},
+		{
+			"ID": "20220509221801-oq4ktwf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221801-oq4ktwf",
+				"updated": "20220509221846"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "与分类寻址类似，地址空间分割成块容易通过数值连续的地址来实现"
+				}
+			]
+		},
+		{
+			"ID": "20220509221850-ss31cr2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221850-ss31cr2",
+				"updated": "20220509221928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些分组普遍使用地址空间前缀来表示，n位的前缀是一个地址前n个位的预定义值。"
+				}
+			]
+		},
+		{
+			"ID": "20220509221930-2k0kjsa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221930-2k0kjsa",
+				"updated": "20220509221942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于IPv4，n值通常在0~32"
+				}
+			]
+		},
+		{
+			"ID": "20220509221942-xrq1bt4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509221942-xrq1bt4",
+				"updated": "20220509222004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于IPv6，n值范围为0~128"
+				}
+			]
+		},
+		{
+			"ID": "20220509222004-wgelguh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509222004-wgelguh",
+				"updated": "20220509222037"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通常追加在基本IP地址，并且后面跟一个/字符。类似子网掩码"
+				}
+			]
+		},
+		{
+			"ID": "20220509222037-or45ry7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509222037-or45ry7",
+				"updated": "20220509222239"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "早期的分类寻址方案易于被这个方案覆盖。例如A类、B类、C类可以网络前缀n位 /8 /16 /24"
+				}
+			]
+		},
+		{
+			"ID": "20220509222406-4zj0dh2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220509222406-4zj0dh2",
+				"updated": "20220509222406"
+			}
+		}
+	]
+}

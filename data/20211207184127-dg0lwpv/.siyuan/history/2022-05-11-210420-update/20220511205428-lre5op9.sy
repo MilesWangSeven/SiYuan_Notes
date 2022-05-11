@@ -1,0 +1,79 @@
+{
+	"ID": "20220511205428-lre5op9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220511205428-lre5op9",
+		"title": "2022-05-11",
+		"updated": "20220511210053"
+	},
+	"Children": [
+		{
+			"ID": "20220511205428-y4c89u7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205428-y4c89u7",
+				"updated": "20220511205441"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "聚合"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220511205444-iqllf6b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205444-iqllf6b",
+				"updated": "20220511205715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "取消分类结构的IP地址，能分配各种尺寸的IP地址块。但没有帮助减少路由表的条目数。"
+				}
+			]
+		},
+		{
+			"ID": "20220511205736-5szdx68",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205736-5szdx68",
+				"updated": "20220511205833"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路由器检查每个到达的数报中的目标IP地址，找到一条匹配的路由表条目，从该条目中提取数据报中的下一跳。"
+				}
+			]
+		},
+		{
+			"ID": "20220511205909-hncdlf7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220511205909-hncdlf7",
+				"updated": "20220511210053"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分层路由研究，网络拓扑排列为一棵树，并以对这个网络拓扑“敏感”方式来分配地址。可获得一个非常小的路由表，同时保持到所有目的地的最短路径。"
+				}
+			]
+		}
+	]
+}

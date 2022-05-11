@@ -1,0 +1,41 @@
+{
+	"ID": "20220508205914-xt4a6ms",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220508205914-xt4a6ms",
+		"title": "2022-05-08",
+		"updated": "20220508210821"
+	},
+	"Children": [
+		{
+			"ID": "20220508205914-gfi7er9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508205914-gfi7er9",
+				"updated": "20220508210151"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IID的长度通常是64位"
+				}
+			]
+		},
+		{
+			"ID": "20220508210154-7gm3z1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508210154-7gm3z1a",
+				"updated": "20220508210821"
+			}
+		},
+		{
+			"ID": "20220508210145-khbjd77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508210145-khbjd77",
+				"updated": "20220508210145"
+			}
+		}
+	]
+}

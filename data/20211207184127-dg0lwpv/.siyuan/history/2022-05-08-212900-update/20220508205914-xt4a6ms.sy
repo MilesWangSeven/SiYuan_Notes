@@ -1,0 +1,79 @@
+{
+	"ID": "20220508205914-xt4a6ms",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220508205914-xt4a6ms",
+		"title": "2022-05-08",
+		"updated": "20220508212859"
+	},
+	"Children": [
+		{
+			"ID": "20220508205914-gfi7er9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508205914-gfi7er9",
+				"updated": "20220508212839"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "接口标识符"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（IID）的长度通常是64位,并直接由一个网络接口相关的链路层MAC地址形成，该地址使用修改的EUI-64格式，或有其他进程随机提供的值形成。"
+				}
+			]
+		},
+		{
+			"ID": "20220508212840-opo8k9n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508212840-opo8k9n",
+				"updated": "20220508212859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提供可防范地址跟踪的某种程度的"
+				}
+			]
+		},
+		{
+			"ID": "20220508212713-imxqh08",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508212713-imxqh08",
+				"updated": "20220508212713"
+			}
+		},
+		{
+			"ID": "20220508210154-7gm3z1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508210154-7gm3z1a",
+				"updated": "20220508210821"
+			}
+		},
+		{
+			"ID": "20220508210145-khbjd77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508210145-khbjd77",
+				"updated": "20220508210145"
+			}
+		}
+	]
+}

@@ -1,0 +1,581 @@
+{
+	"ID": "20220508205914-xt4a6ms",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220508205914-xt4a6ms",
+		"title": "2022-05-08",
+		"updated": "20220508215859"
+	},
+	"Children": [
+		{
+			"ID": "20220508205914-gfi7er9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508205914-gfi7er9",
+				"updated": "20220508212839"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "接口标识符"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（IID）的长度通常是64位,并直接由一个网络接口相关的链路层MAC地址形成，该地址使用修改的EUI-64格式，或有其他进程随机提供的值形成。"
+				}
+			]
+		},
+		{
+			"ID": "20220508212840-opo8k9n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508212840-opo8k9n",
+				"updated": "20220508212903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提供可防范地址跟踪的某种程度的隐私保护"
+				}
+			]
+		},
+		{
+			"ID": "20220508212903-f6koymk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508212903-f6koymk",
+				"updated": "20220508213148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在IEEE标准中，EUI表示"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "扩展唯一标识符"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。EUI-64标识符开始于一个24位的"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "组织唯一标识符"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "(OUI),接着是一个由组织分配的40位"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "扩展标识符"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220508213148-94a6y1j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213148-94a6y1j",
+				"updated": "20220508213218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OUI由IEEE注册权威机构（IEEERA)来维护和分配"
+				}
+			]
+		},
+		{
+			"ID": "20220508212713-imxqh08",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508212713-imxqh08",
+				"updated": "20220508213339"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "EUI可能是“统一管理”或“本地管理”，在Internet环境下，通常是统一管理"
+				}
+			]
+		},
+		{
+			"ID": "20220508213340-0g1k3n2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213340-0g1k3n2",
+				"updated": "20220508213520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "很多IEEE标准兼容的网络接口（如以太网）使用短格式的地址（48位EUI)"
+				}
+			]
+		},
+		{
+			"ID": "20220508213440-i5vi9zh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213440-i5vi9zh",
+				"updated": "20220508213717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "EUI-48和EUI-64之间显著区别是长度，都用于IPv6地址，通过将接口标识符（IID)取反u位来形成"
+				}
+			]
+		},
+		{
+			"ID": "20220508213717-f5b314c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213717-f5b314c",
+				"updated": "20220508213812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OUI长度24位，占据EUI-48和EUI-64前3个字节。"
+				}
+			]
+		},
+		{
+			"ID": "20220508213814-59w3shb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213814-59w3shb",
+				"updated": "20220508213858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一个字节低两位分别是u位和g位。"
+				}
+			]
+		},
+		{
+			"ID": "20220508214021-9z3vr23",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220508214021-9z3vr23",
+				"updated": "20220508214021"
+			},
+			"Children": [
+				{
+					"ID": "20220508214021-3jgf6vt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220508214021-3jgf6vt"
+					},
+					"Children": [
+						{
+							"ID": "20220508213859-8pc09jx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220508213859-8pc09jx",
+								"updated": "20220508213919"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "u位被设置，表示该地址为本地管理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220508214021-1kshpbi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220508214021-1kshpbi"
+					},
+					"Children": [
+						{
+							"ID": "20220508213911-pebnw5a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220508213911-pebnw5a",
+								"updated": "20220508213935"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "g位被设置，表示该地址是一组或组播类型的地址"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220508213942-6fycwtq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213942-6fycwtq",
+				"updated": "20220508214014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前，就g位未被设置情况讨论："
+				}
+			]
+		},
+		{
+			"ID": "20220508214043-p53y1mi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508214043-p53y1mi",
+				"updated": "20220508214107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "EUI-48可转EUI-64，具体步骤："
+				}
+			]
+		},
+		{
+			"ID": "20220508214108-5jvjwxv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508214108-5jvjwxv",
+				"updated": "20220508214359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "EUI-48地址24位OUI值复制到EUI-64地址，并将EUI-64地址第4和第5个字节16位替换为0xFFFE,然后复制由组织分配的剩余位，即3字节(OUI) + 2（填充0xFFFE） + 3（原始）"
+				}
+			]
+		},
+		{
+			"ID": "20220508214925-7phljzy",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220508214925-7phljzy",
+				"updated": "20220508214925"
+			},
+			"Children": [
+				{
+					"ID": "20220508214925-71vue42",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220508214925-71vue42"
+					},
+					"Children": [
+						{
+							"ID": "20220508214347-jhnd8fj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220508214347-jhnd8fj",
+								"updated": "20220508214451"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "EUI-64用于形成IPv6的IID，需要对u位取反"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220508214925-ghxrtqi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220508214925-ghxrtqi"
+					},
+					"Children": [
+						{
+							"ID": "20220508214451-qv2reb7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220508214451-qv2reb7",
+								"updated": "20220508214706"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当IPv6接口标识符需要一种接口，并且没有由制造商提供的EUI-48地址，但有其他类型基本地址时（如AppleTalk），基本地址可用0从左侧填充形成接口标识符。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220508214925-nfae3kf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220508214925-nfae3kf"
+					},
+					"Children": [
+						{
+							"ID": "20220508214707-xgddsqw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220508214707-xgddsqw",
+								"updated": "20220508214841"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当接口标识符是为缺乏任意形式标识符的接口（如隧道、串行链路）创建时，可有相同节点上（不在同一子网中）的其他接口，或者与节点有关联的某些标识符派生。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220508214925-549lync",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220508214925-549lync"
+					},
+					"Children": [
+						{
+							"ID": "20220508214841-0t92jcr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220508214841-0t92jcr",
+								"updated": "20220508214857"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最后方案，手动分配"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220508214858-dz8ybqv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508214858-dz8ybqv",
+				"updated": "20220508214920"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "例子："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220508215139-9w3nx6b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508215139-9w3nx6b",
+				"updated": "20220508215847"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以太网硬件地址 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "00:30:48:2A:19:89"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ",扩展为EUI-64 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "00:30:48:FF:FE:2A:19:89"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220508213516-ub3q0r0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213516-ub3q0r0",
+				"updated": "20220508215850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接着u位取反形成接口标识符（IID）"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "02:30:48:FF:FE:2A:19:89"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220508215612-269jhht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508215612-269jhht",
+				"updated": "20220508215859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用保留链路本地前缀fe80::/10，形成完整地址fe80::230:48ff:fe2a:1989/"
+				}
+			]
+		},
+		{
+			"ID": "20220508213300-tw4p5go",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508213300-tw4p5go",
+				"updated": "20220508213300"
+			}
+		},
+		{
+			"ID": "20220508210154-7gm3z1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508210154-7gm3z1a",
+				"updated": "20220508210821"
+			}
+		},
+		{
+			"ID": "20220508210145-khbjd77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220508210145-khbjd77",
+				"updated": "20220508210145"
+			}
+		}
+	]
+}
