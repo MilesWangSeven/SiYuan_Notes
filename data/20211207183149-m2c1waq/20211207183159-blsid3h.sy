@@ -60,6 +60,13 @@
 							"Data": "20211207183313-8jrf3mp"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "离线笔记"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -86,6 +93,13 @@
 							"Data": "20211207183913-psc8e6l"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "markdown"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -110,6 +124,13 @@
 						{
 							"Type": "NodeBlockRefID",
 							"Data": "20211207183939-y7nqaln"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "所见即所得"
 						},
 						{
 							"Type": "NodeCloseParen"

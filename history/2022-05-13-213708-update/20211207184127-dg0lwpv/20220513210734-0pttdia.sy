@@ -1,0 +1,139 @@
+{
+	"ID": "20220513210734-0pttdia",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220513210734-0pttdia",
+		"title": "2022-05-13",
+		"updated": "20220513213514"
+	},
+	"Children": [
+		{
+			"ID": "20220513210734-4i0ak2p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513210734-4i0ak2p",
+				"updated": "20220513210757"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv6特殊用途地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220513210757-ww89pp4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513210757-ww89pp4",
+				"updated": "20220513213048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前缀\t\t\t特殊用途"
+				}
+			]
+		},
+		{
+			"ID": "20220513213049-qplqbs1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513213049-qplqbs1",
+				"updated": "20220513213105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "::/0\t\t\t默认路由条目。不用于寻址"
+				}
+			]
+		},
+		{
+			"ID": "20220513213106-ykb7da9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513213106-ykb7da9",
+				"updated": "20220513213136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "::/128\t\t未指定地址，可作为源IP地址使用"
+				}
+			]
+		},
+		{
+			"ID": "20220513213321-8czxmdu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513213321-8czxmdu",
+				"updated": "20220513213348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "::1/128\t\tIPv6主机回送地址，不用于发送除本地主机的数据报中"
+				}
+			]
+		},
+		{
+			"ID": "20220513213137-5ltqt5f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513213137-5ltqt5f",
+				"updated": "20220513213455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "::ffff:0:0/96\tIPv4映射地址。这种地址不会出现在分组头部，只用于内部主机"
+				}
+			]
+		},
+		{
+			"ID": "20220513213215-7cd1syh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513213215-7cd1syh",
+				"updated": "20220513213513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "::{ipv4-address}/96 IPv4兼容地址。已过时，未使用。"
+				}
+			]
+		},
+		{
+			"ID": "20220513213514-apjt849",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513213514-apjt849",
+				"updated": "20220513213514"
+			}
+		},
+		{
+			"ID": "20220513213458-ztufge5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513213458-ztufge5",
+				"updated": "20220513213458"
+			}
+		}
+	]
+}

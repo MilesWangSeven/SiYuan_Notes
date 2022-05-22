@@ -1,0 +1,95 @@
+{
+	"ID": "20220517205629-8uamp64",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220517205629-8uamp64",
+		"title": "2022-05-17",
+		"updated": "20220517210505"
+	},
+	"Children": [
+		{
+			"ID": "20220517205629-4uc1lxp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517205629-4uc1lxp",
+				"updated": "20220517210119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理范围的地址块可用于限制分布在路由器和主机的特定集合中的组播流量。可以看作组播对专用单播IP地址的模拟"
+				}
+			]
+		},
+		{
+			"ID": "20220517205908-447hryi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517205908-447hryi",
+				"updated": "20220517210242"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种地址不能用于将组播分发到Internet，因为其中大多数流量被阻塞在企业边界。"
+				}
+			]
+		},
+		{
+			"ID": "20220517210242-uwvlk5c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210242-uwvlk5c",
+				"updated": "20220517210402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "大型站点有时会划分管理范围的组播地址，以用于某些特定范围（例如，工作组、部分和地理区域）"
+				}
+			]
+		},
+		{
+			"ID": "20220517210402-mq0rkhi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210402-mq0rkhi",
+				"updated": "20220517210419"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv6组播地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220517210420-w61so1h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210420-w61so1h",
+				"updated": "20220517210505"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于IPv6，前缀ff00::/8已被预留给组播地址，并且112位可用于保存组号"
+				}
+			]
+		}
+	]
+}

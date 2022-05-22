@@ -1,0 +1,131 @@
+{
+	"ID": "20220519211608-8m9jjlk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220519211608-8m9jjlk",
+		"title": "2022-05-19",
+		"updated": "20220519213832"
+	},
+	"Children": [
+		{
+			"ID": "20220519211608-nl90xrs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519211608-nl90xrs",
+				"updated": "20220519211750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在不需要路由器的Ad hoc（无线自组织）网络中， 一个单独的计算机可基于自己的IID形成唯一的组播地址，而无需运行一个复杂的许可协议。"
+				}
+			]
+		},
+		{
+			"ID": "20220519211750-f40jqzm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519211750-f40jqzm",
+				"updated": "20220519212049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种格式只适用于本地链路或节点组播范围"
+				}
+			]
+		},
+		{
+			"ID": "20220519212050-bywo0eg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519212050-bywo0eg",
+				"updated": "20220519212118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当需要更大范围时，无论基于单播前缀的地址还是永久组播地址都可使用。"
+				}
+			]
+		},
+		{
+			"ID": "20220519213005-80rlhse",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519213005-80rlhse",
+				"updated": "20220519213007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如："
+				}
+			]
+		},
+		{
+			"ID": "20220519213007-rkijdxu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519213007-rkijdxu",
+				"updated": "20220519213024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IID为02-11-22-33-44-55-66-77的主机使用组播地址"
+				}
+			]
+		},
+		{
+			"ID": "20220519213024-iega600",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519213024-iega600",
+				"updated": "20220519213124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff3x:0011:0211:2233:4455:6677:gggg:gggg,其中x是等于或小于2的数，gggg:gggg是一个32位组播ID的十六进制表示"
+				}
+			]
+		},
+		{
+			"ID": "20220519213124-s4re22z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519213124-s4re22z",
+				"updated": "20220519213747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "R位字段："
+				}
+			]
+		},
+		{
+			"ID": "20220519213747-0nsuvtb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519213747-0nsuvtb",
+				"updated": "20220519213831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当使用基于单播前缀的地址（P位被设置）时，表示组播路由协议需要知道一个会和点"
+				}
+			]
+		},
+		{
+			"ID": "20220519213832-84djamb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519213832-84djamb",
+				"updated": "20220519213832"
+			}
+		}
+	]
+}

@@ -30,6 +30,13 @@
 							"Data": "20211208212538-yvyi5dr"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "电力"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -54,6 +61,13 @@
 						{
 							"Type": "NodeBlockRefID",
 							"Data": "20211208213335-dcn9lan"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "电能"
 						},
 						{
 							"Type": "NodeCloseParen"

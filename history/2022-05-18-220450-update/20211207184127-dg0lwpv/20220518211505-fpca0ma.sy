@@ -1,0 +1,374 @@
+{
+	"ID": "20220518211505-fpca0ma",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220518211505-fpca0ma",
+		"title": "2022-05-18",
+		"updated": "20220518220258"
+	},
+	"Children": [
+		{
+			"ID": "20220518211505-u5pdzri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518211505-u5pdzri",
+				"updated": "20220518211749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在IPv6组播地址中，当P（使用单播前缀）设置为1，无需基于每个组的全球性许可，对组播地址有两种可选方法："
+				}
+			]
+		},
+		{
+			"ID": "20220518211749-0z6muma",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220518211749-0z6muma",
+				"updated": "20220518214434"
+			},
+			"Children": [
+				{
+					"ID": "20220518211758-nn5z5qh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220518211758-nn5z5qh",
+						"updated": "20220518211925"
+					},
+					"Children": [
+						{
+							"ID": "20220518211758-fv9869r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518211758-fv9869r",
+								"updated": "20220518211925"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于单播前缀的IPv6组播地址分配，有ISP或地址分配机构提供的单播前缀分配，并且有效分配一个组播地址集合，从而限制因避免重复而需要全球协调的数量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220518211925-ix92hrm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220518211925-ix92hrm",
+						"updated": "20220518214434"
+					},
+					"Children": [
+						{
+							"ID": "20220518211925-5jf1kfe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518211925-5jf1kfe",
+								"updated": "20220518213855"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "链路范围的IPv6组播，使用接口标识符，并且组播地址是基于主机的IID。"
+								}
+							]
+						},
+						{
+							"ID": "20220518213934-l3051iq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518213934-l3051iq",
+								"updated": "20220518213934"
+							}
+						},
+						{
+							"ID": "20220518214015-ogrw0e1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518214015-ogrw0e1",
+								"updated": "20220518214034"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "位字段（标志）     含义"
+								}
+							]
+						},
+						{
+							"ID": "20220518214035-67ge5ek",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518214035-67ge5ek",
+								"updated": "20220518214059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "R                          会和点标志（0：常规 ； 1：包含RP地址）"
+								}
+							]
+						},
+						{
+							"ID": "20220518214104-z1w4hu0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518214104-z1w4hu0",
+								"updated": "20220518214125"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "P                          前缀地址（0：常规；  1：基于单播前缀地址）"
+								}
+							]
+						},
+						{
+							"ID": "20220518214125-j5g1a0j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518214125-j5g1a0j",
+								"updated": "20220518214151"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "T                          临时标志（0：永久分配； 1：临时的）"
+								}
+							]
+						},
+						{
+							"ID": "20220518214434-aqfjvru",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518214434-aqfjvru",
+								"updated": "20220518214434"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220518214439-1kw16cy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518214439-1kw16cy",
+				"updated": "20220518214524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "T位字段设置："
+				}
+			]
+		},
+		{
+			"ID": "20220518214456-xuxz75e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518214456-xuxz75e",
+				"updated": "20220518214514"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "表示组地址是临时或动态分配的"
+				}
+			]
+		},
+		{
+			"ID": "20220518214514-qnka6sz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518214514-qnka6sz",
+				"updated": "20220518214548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "P位字段设置时，T位也必须设置为1"
+				}
+			]
+		},
+		{
+			"ID": "20220518214600-hwfukqb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518214600-hwfukqb",
+				"updated": "20220518214711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1111 1111 0011 4bit范围 0000 0000 SSM设为0（8位） SSM设为0（64位） 组ID(32位）"
+				}
+			]
+		},
+		{
+			"ID": "20220518214733-burtdeh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518214733-burtdeh",
+				"updated": "20220518214831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组播地址基于单播IPv6地址来创建，这样做时，P位字段设置为1，单播前缀和32位的组ID被加入地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220518214833-uehyn9k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518214833-uehyn9k",
+				"updated": "20220518214848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这样的组播地址分配减少了全球地址分配协议的需求"
+				}
+			]
+		},
+		{
+			"ID": "20220518214852-k420i6z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518214852-k420i6z",
+				"updated": "20220518214944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此方案目的提供全球唯一的IPv6组播地址分配方式，同时不需要提出新的全球性机制。"
+				}
+			]
+		},
+		{
+			"ID": "20220518215017-cid4cuh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518215017-cid4cuh",
+				"updated": "20220518220128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如一个组织分配了一个单播前缀3ffe:ffff:1::/48,那么它随之分配了一个基于单播的组播前缀ff3x:30:3ffe:ffff:1::/96,其中x是任何有效范围"
+				}
+			]
+		},
+		{
+			"ID": "20220518215330-34o2om7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518215330-34o2om7",
+				"updated": "20220518215445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SSM通过设置前缀长度和将前缀字段设置为0来支持这种格式，以便有效地将前缀ff3x::/32（其中x是任何有效的范围值）用于所有这类IPv6 SSM组播地址"
+				}
+			]
+		},
+		{
+			"ID": "20220518215445-0cdk1yl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518215445-0cdk1yl",
+				"updated": "20220518215445"
+			}
+		},
+		{
+			"ID": "20220518215503-d8gixjx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518215503-d8gixjx",
+				"updated": "20220518215737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建唯一的链路本地范围组播地址，可使用一种基于IID的方法。只需要链路本地范围时，这种方法是基于单播前缀的首选"
+				}
+			]
+		},
+		{
+			"ID": "20220518215737-ilrr0y1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518215737-ilrr0y1",
+				"updated": "20220518215747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可使用如下形式"
+				}
+			]
+		},
+		{
+			"ID": "20220518215747-wp1ma1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518215747-wp1ma1o",
+				"updated": "20220518215852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1111 1111 0011 \u003c=2 （4bit范围）0000 0000 1111 1111 IID（64位） 组ID(32位）"
+				}
+			]
+		},
+		{
+			"ID": "20220518215913-3wfta0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518215913-3wfta0j",
+				"updated": "20220518215952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种适用于链路（或更小）范围内的地址，组播地址可结合IPv6接口ID和组ID来形成。"
+				}
+			]
+		},
+		{
+			"ID": "20220518220018-6pamjjj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518220018-6pamjjj",
+				"updated": "20220518220258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所有地址使用前缀形式ff3x:0011/32,其中x是范围ID并且小于3"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,103 @@
+{
+	"ID": "20220514211744-csygo4v",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220514211744-csygo4v",
+		"title": "2022-05-14",
+		"updated": "20220514212713"
+	},
+	"Children": [
+		{
+			"ID": "20220514211744-lmq6tng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514211744-lmq6tng",
+				"updated": "20220514211806"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv4/IPv6地址转换"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220514211807-s3jfb53",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514211807-s3jfb53",
+				"updated": "20220514211932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "制定单播转换框架，正在开发的用于组播的方案。一个基本功能：自动的基于算法的地址转换"
+				}
+			]
+		},
+		{
+			"ID": "20220514211933-g0489bn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514211933-g0489bn",
+				"updated": "20220514212225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "嵌入IPv4的IPv6地址，可用6种格式之恶来来编码，前缀长度必须是：32、40、48、56、64或96"
+				}
+			]
+		},
+		{
+			"ID": "20220514212641-1rpbaf2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212641-1rpbaf2",
+				"updated": "20220514212648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前缀长度"
+				}
+			]
+		},
+		{
+			"ID": "20220514212228-jaxjcti",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212228-jaxjcti",
+				"updated": "20220514212713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "32\t\t\tIPv6前缀（32位）\t\tIPv4地址（32位）  u"
+				}
+			]
+		},
+		{
+			"ID": "20220514212247-00ah37p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212247-00ah37p",
+				"updated": "20220514212247"
+			}
+		}
+	]
+}

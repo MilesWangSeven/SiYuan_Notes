@@ -1,0 +1,566 @@
+{
+	"ID": "20220517205629-8uamp64",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220517205629-8uamp64",
+		"title": "2022-05-17",
+		"updated": "20220517211558"
+	},
+	"Children": [
+		{
+			"ID": "20220517205629-4uc1lxp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517205629-4uc1lxp",
+				"updated": "20220517210119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理范围的地址块可用于限制分布在路由器和主机的特定集合中的组播流量。可以看作组播对专用单播IP地址的模拟"
+				}
+			]
+		},
+		{
+			"ID": "20220517205908-447hryi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517205908-447hryi",
+				"updated": "20220517210242"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种地址不能用于将组播分发到Internet，因为其中大多数流量被阻塞在企业边界。"
+				}
+			]
+		},
+		{
+			"ID": "20220517210242-uwvlk5c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210242-uwvlk5c",
+				"updated": "20220517210402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "大型站点有时会划分管理范围的组播地址，以用于某些特定范围（例如，工作组、部分和地理区域）"
+				}
+			]
+		},
+		{
+			"ID": "20220517210402-mq0rkhi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210402-mq0rkhi",
+				"updated": "20220517210419"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv6组播地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220517210420-w61so1h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210420-w61so1h",
+				"updated": "20220517210505"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于IPv6，前缀ff00::/8已被预留给组播地址，并且112位可用于保存组号"
+				}
+			]
+		},
+		{
+			"ID": "20220517210636-07upilv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210636-07upilv",
+				"updated": "20220517210714"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0xFF  + 4bit标志 + 4bit范围 + 112bit组ID"
+				}
+			]
+		},
+		{
+			"ID": "20220517210708-xzrqf5q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210708-xzrqf5q",
+				"updated": "20220517210759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标志位： 0 保留 + R 包含会合点 + P 使用单播前缀 + T 是临时"
+				}
+			]
+		},
+		{
+			"ID": "20220517210802-1x8q8k1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210802-1x8q8k1",
+				"updated": "20220517210827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "范围位：组播范围（全球、本地等）"
+				}
+			]
+		},
+		{
+			"ID": "20220517211017-mnpyidl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220517211017-mnpyidl",
+				"updated": "20220517211122"
+			},
+			"Children": [
+				{
+					"ID": "20220517211017-3em4kh1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211017-3em4kh1",
+						"updated": "20220517210959"
+					},
+					"Children": [
+						{
+							"ID": "20220517210909-rdz4a47",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517210909-rdz4a47",
+								"updated": "20220517210959"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "0、3、f：保留"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220517211019-3b3e2lt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211019-3b3e2lt",
+						"updated": "20220517211047"
+					},
+					"Children": [
+						{
+							"ID": "20220517211019-y6cgvc6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517211019-y6cgvc6",
+								"updated": "20220517211047"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "6、7、9~d：未分配"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220517211033-spw11cm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211033-spw11cm",
+						"updated": "20220517211045"
+					},
+					"Children": [
+						{
+							"ID": "20220517211033-93cqle4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517211033-93cqle4",
+								"updated": "20220517211045"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1： 接口/机器本地"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220517211049-agqhboh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211049-agqhboh",
+						"updated": "20220517211057"
+					},
+					"Children": [
+						{
+							"ID": "20220517211049-z2d276e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517211049-z2d276e",
+								"updated": "20220517211057"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2：链路/子网本地"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220517211057-pyuz1m6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211057-pyuz1m6",
+						"updated": "20220517211102"
+					},
+					"Children": [
+						{
+							"ID": "20220517211057-sigdqpr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517211057-sigdqpr",
+								"updated": "20220517211102"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "4：管理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220517211102-r3yg16s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211102-r3yg16s",
+						"updated": "20220517211108"
+					},
+					"Children": [
+						{
+							"ID": "20220517211102-r21o87d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517211102-r21o87d",
+								"updated": "20220517211108"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "5：站点本地"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220517211108-hkmb9vw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211108-hkmb9vw",
+						"updated": "20220517211115"
+					},
+					"Children": [
+						{
+							"ID": "20220517211108-4kytadd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517211108-4kytadd",
+								"updated": "20220517211115"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "8：组织本地"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220517211115-t56idua",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220517211115-t56idua",
+						"updated": "20220517211122"
+					},
+					"Children": [
+						{
+							"ID": "20220517211115-fmj37ll",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220517211115-fmj37ll",
+								"updated": "20220517211122"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "e：全球"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220517210911-rintum3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517210911-rintum3",
+				"updated": "20220517210944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "很多IPv6组播地址由IANA分配为永久使用，并故意跨越多个地址范围"
+				}
+			]
+		},
+		{
+			"ID": "20220517211130-uvh2xil",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211130-uvh2xil",
+				"updated": "20220517211213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些组播地址对每个范围都有一定偏移量（由于这个原因，这些地址被称为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "相对范围"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "或"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可变范围"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）"
+				}
+			]
+		},
+		{
+			"ID": "20220517211214-8j0tumb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211214-8j0tumb",
+				"updated": "20220517211251"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可变范围组播地址ff0x::101是为NTP服务器预留"
+				}
+			]
+		},
+		{
+			"ID": "20220517211301-l7bd5ae",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211301-l7bd5ae",
+				"updated": "20220517211354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "地址\t\t\t\t\t含义"
+				}
+			]
+		},
+		{
+			"ID": "20220517211354-3dmmzuq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211354-3dmmzuq",
+				"updated": "20220517211417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff01::101\t\t\t\t同一机器中的所有NTP服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220517211418-63yeaya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211418-63yeaya",
+				"updated": "20220517211443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::101\t\t\t\t同一链路/子网所有NTP服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220517211444-w2796aa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211444-w2796aa",
+				"updated": "20220517211502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff04::101\t\t\t\t某些管理定义范围内的所有NTP服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220517211503-mwqawpi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211503-mwqawpi",
+				"updated": "20220517211519"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff05::101\t\t\t\t同一站点中的所有NTP服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220517211519-g3r1pas",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211519-g3r1pas",
+				"updated": "20220517211540"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff08::101\t\t\t\t同一组织中的所有NTP服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220517211542-ccyi94k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211542-ccyi94k",
+				"updated": "20220517211558"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff0e::101\t\t\t\tInternet中的所有NTP服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220517211301-xya1s71",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220517211301-xya1s71",
+				"updated": "20220517211348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当P 和 R字段设置为0时，使用如前所述组播地址格式"
+				}
+			]
+		}
+	]
+}

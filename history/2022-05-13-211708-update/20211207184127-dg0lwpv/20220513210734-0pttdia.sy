@@ -1,0 +1,47 @@
+{
+	"ID": "20220513210734-0pttdia",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220513210734-0pttdia",
+		"title": "2022-05-13",
+		"updated": "20220513210757"
+	},
+	"Children": [
+		{
+			"ID": "20220513210734-4i0ak2p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513210734-4i0ak2p",
+				"updated": "20220513210757"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv6特殊用途地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220513210757-ww89pp4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220513210757-ww89pp4",
+				"updated": "20220513210757"
+			}
+		}
+	]
+}

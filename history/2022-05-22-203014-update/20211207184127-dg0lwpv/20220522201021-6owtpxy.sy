@@ -1,0 +1,522 @@
+{
+	"ID": "20220522201021-6owtpxy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220522201021-6owtpxy",
+		"title": "2022-05-22",
+		"updated": "20220522202833"
+	},
+	"Children": [
+		{
+			"ID": "20220522201021-0yklfnj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201021-0yklfnj",
+				"updated": "20220522201038"
+			},
+			"Children": [
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "任播地址"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220522201039-gsqc6wq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201039-gsqc6wq",
+				"updated": "20220522201205"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "是一个单播IPv4或IPv6地址，根据它所在的网络确定不同的主机。"
+				}
+			]
+		},
+		{
+			"ID": "20220522201205-eeqk4zt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201205-eeqk4zt",
+				"updated": "20220522201240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "是通过配置路由器通知Internet中多个站点有相同单播路由器来实现"
+				}
+			]
+		},
+		{
+			"ID": "20220522201240-zji6hai",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201240-zji6hai",
+				"updated": "20220522201325"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个任播地址不是指Internet中的一台主机，而是对于任播地址“最合适”或“最接近”的一台主机。"
+				}
+			]
+		},
+		{
+			"ID": "20220522201325-ouf6eng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201325-ouf6eng",
+				"updated": "20220522201352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "任播地址最常用于发现一台提供了常用服务的计算机。"
+				}
+			]
+		},
+		{
+			"ID": "20220522201353-hnyq7l6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201353-hnyq7l6",
+				"updated": "20220522201416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如，"
+				}
+			]
+		},
+		{
+			"ID": "20220522201509-uqji8z9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220522201509-uqji8z9",
+				"updated": "20220522201509"
+			},
+			"Children": [
+				{
+					"ID": "20220522201509-psrjqmi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220522201509-psrjqmi",
+						"updated": "20220522201509"
+					},
+					"Children": [
+						{
+							"ID": "20220522201503-e9wvejd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220522201503-e9wvejd",
+								"updated": "20220522201509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "某个数据发送到一个任播地址，可用于找到DNS服务器"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220522201509-e386iyq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220522201509-e386iyq",
+						"updated": "20220522201509"
+					},
+					"Children": [
+						{
+							"ID": "20220522201416-3yd6bz5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220522201416-3yd6bz5",
+								"updated": "20220522201509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "6to4网关将IPv6流量封装在IPv4隧道中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220522201509-xjskjkv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220522201509-xjskjkv",
+						"updated": "20220522201509"
+					},
+					"Children": [
+						{
+							"ID": "20220522201441-m4uhsf7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220522201441-m4uhsf7",
+								"updated": "20220522201509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "或用于组播路由的RP中"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220522201459-z9607xx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201459-z9607xx",
+				"updated": "20220522201512"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分配"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220522201513-67kxqdm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201513-67kxqdm",
+				"updated": "20220522201554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IP地址空间通常"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分配"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "为大的块，这些由分层次组织的"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "权威机构"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "完成"
+				}
+			]
+		},
+		{
+			"ID": "20220522201555-t7quc90",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201555-t7quc90",
+				"updated": "20220522201641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "权威机构是为各种“所有者”分配地址空间的组织，“所有者”通常是ISP或其他较小的权威机构"
+				}
+			]
+		},
+		{
+			"ID": "20220522201642-vwqkyqt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201642-vwqkyqt",
+				"updated": "20220522201718"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "权威机构经常参与全球单播地址空间的分配，但有时也分配其他类型的地址（组播或特殊用途）"
+				}
+			]
+		},
+		{
+			"ID": "20220522201721-t4kzkcz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201721-t4kzkcz",
+				"updated": "20220522201750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "权威机构为用户分配一个不限时的地址块，或是一个限时（例如实验）的地址块。"
+				}
+			]
+		},
+		{
+			"ID": "20220522201752-n70bq19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201752-n70bq19",
+				"updated": "20220522201820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个层次结果的顶部是IANA，负责分配IP和Internet协议使用的其他号码"
+				}
+			]
+		},
+		{
+			"ID": "20220522201822-76dmgsg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201822-76dmgsg",
+				"updated": "20220522201828"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单播"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220522201828-w2nfjp0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522201828-w2nfjp0",
+				"updated": "20220522202320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于单播IPv4和IPv6地址空间，IANA将分配权限主要委托给几个"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "地区性Internet注册机构"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（RIR)"
+				}
+			]
+		},
+		{
+			"ID": "20220522202322-ia4vynd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202322-ia4vynd",
+				"updated": "20220522202400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RIR之间通过 2003年创建的号码资源组织（NRO) 来互相协作"
+				}
+			]
+		},
+		{
+			"ID": "20220522202400-5op5dq4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202400-5op5dq4",
+				"updated": "20220522202450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "截至2011年初，IANA拥有的剩余IPv4单播地址空间将移交给RIR分配"
+				}
+			]
+		},
+		{
+			"ID": "20220522202450-7n79568",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202450-7n79568",
+				"updated": "20220522202511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RIR名称\t\t\t\t\t\t\t\t负责的地区\t\t\t参考文献"
+				}
+			]
+		},
+		{
+			"ID": "20220522202511-k5k32gp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202511-k5k32gp",
+				"updated": "20220522202539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "AfriNIC--非洲网络信息中心\t\t\t\t非洲\t\t\t\t\twww.afrinic.net"
+				}
+			]
+		},
+		{
+			"ID": "20220522202539-n9fk8pf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202539-n9fk8pf",
+				"updated": "20220522202620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "APNIC--亚洲太平洋地区网络信息中心\t\t亚洲/太平洋地区\t\twww.apnic.net"
+				}
+			]
+		},
+		{
+			"ID": "20220522202620-3fdkrse",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202620-3fdkrse",
+				"updated": "20220522202645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ARIN--美洲Internet号码注册机构\t\t\t北美洲\t\t\t\twww.arin.net"
+				}
+			]
+		},
+		{
+			"ID": "20220522202646-wbqlm47",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202646-wbqlm47",
+				"updated": "20220522202755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "LACNIC--拉丁美洲和加勒比地区的IP地址注册\t拉丁美洲、加勒比岛屿\tlacnic.net/en/index.html"
+				}
+			]
+		},
+		{
+			"ID": "20220522202756-j17lren",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202756-j17lren",
+				"updated": "20220522202828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RIPE NCC--欧洲网络协调中心\t\t\t\t欧洲、中东、中亚\t\twww.ripe.net"
+				}
+			]
+		},
+		{
+			"ID": "20220522202833-o2uktzq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220522202833-o2uktzq",
+				"updated": "20220522202833"
+			}
+		}
+	]
+}

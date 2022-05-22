@@ -30,6 +30,13 @@
 							"Data": "20211207212606-71mgk26"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "Linux"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -56,6 +63,13 @@
 							"Data": "20211228192707-qv6aj96"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "vscode"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -80,6 +94,13 @@
 						{
 							"Type": "NodeBlockRefID",
 							"Data": "20211228192917-hagzay5"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "clangd"
 						},
 						{
 							"Type": "NodeCloseParen"

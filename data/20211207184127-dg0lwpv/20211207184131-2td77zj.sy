@@ -63,6 +63,13 @@
 							"Data": "20211207212616-eo4q3mj"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "书籍"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -134,6 +141,13 @@
 							"Data": "20211207212606-71mgk26"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "Linux"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -158,6 +172,13 @@
 						{
 							"Type": "NodeBlockRefID",
 							"Data": "20211207220454-e20fb4t"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "GCC"
 						},
 						{
 							"Type": "NodeCloseParen"

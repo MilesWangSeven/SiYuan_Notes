@@ -10,16 +10,19 @@
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
+    "themeVer": "1.0.1",
     "icons": [
       "ant",
       "material"
     ],
     "icon": "material",
+    "iconVer": "1.0.3",
     "nativeEmoji": false,
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
     "customCSS": false,
+    "themeJS": false,
     "closeButtonBehavior": 0,
     "closeKernelWhenExitingUI": true
   },
@@ -48,11 +51,13 @@
     "refCreateSavePath": "",
     "createDocNameTemplate": "",
     "maxListCount": 512,
+    "allowCreateDeeper": false,
     "sort": 6
   },
+  "tag": {
+    "sort": 4
+  },
   "editor": {
-    "autoSpace": false,
-    "mathEngine": "KaTeX",
     "fontSize": 16,
     "fontFamily": "",
     "codeSyntaxHighlightLineNum": true,
@@ -66,7 +71,8 @@
     "emoji": [],
     "virtualBlockRef": false,
     "virtualBlockRefExclude": "",
-    "blockRefDynamicAnchorTextMaxLen": 64
+    "blockRefDynamicAnchorTextMaxLen": 64,
+    "plantUMLServePath": "https://www.plantuml.com/plantuml/svg/~1"
   },
   "export": {
     "paragraphBeginningSpace": false,
@@ -76,7 +82,9 @@
     "blockRefTextLeft": "\"",
     "blockRefTextRight": "\"",
     "tagOpenMarker": "#",
-    "tagCloseMarker": "#"
+    "tagCloseMarker": "#",
+    "fileAnnotationRefMode": 0,
+    "pandocBin": ""
   },
   "graph": {
     "maxBlocks": 10240,
@@ -180,20 +188,124 @@
     "children": [
   {
     "children": {
-  "blockId": "20220508205914-xt4a6ms",
-  "instance": "Editor"
+  "action": "",
+  "blockId": "20220511205428-lre5op9",
+  "instance": "Editor",
+  "mode": "wysiwyg"
 },
+    "docIcon": "",
     "instance": "Tab",
-    "title": "2022-05-08"
+    "pin": false,
+    "title": "2022-05-11"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220513210734-0pttdia",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-13"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220514211744-csygo4v",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-14"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220515211813-7b7t4vn",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-15"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220516212128-cgljxrj",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-16"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220517205629-8uamp64",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-17"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220518211505-fpca0ma",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-18"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220519211608-8m9jjlk",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-19"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220521211341-844z4sy",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-05-21"
   },
   {
     "active": true,
     "children": {
-  "blockId": "20220509215421-zwy9whw",
-  "instance": "Editor"
+  "action": "",
+  "blockId": "20220522201021-6owtpxy",
+  "instance": "Editor",
+  "mode": "wysiwyg"
 },
+    "docIcon": "",
     "instance": "Tab",
-    "title": "2022-05-09"
+    "pin": false,
+    "title": "2022-05-22"
   }
 ],
     "height": "",
@@ -222,7 +334,7 @@
     "direction": "tb",
     "instance": "Layout",
     "resize": "lr",
-    "size": "162px",
+    "size": "0px",
     "type": "right"
   }
 ],
@@ -258,24 +370,40 @@
     "left": [
   [
     {
+      "hotkeyLangId": "fileTree",
+      "icon": "iconFiles",
       "show": true,
       "size": {
-  "height": 567,
+  "height": 0,
   "width": 240
 },
       "type": "file"
     },
     {
+      "hotkeyLangId": "outline",
+      "icon": "iconAlignCenter",
       "show": false,
       "size": {
   "height": 0,
   "width": 240
 },
       "type": "outline"
+    },
+    {
+      "hotkeyLangId": "inbox",
+      "icon": "iconInbox",
+      "show": false,
+      "size": {
+  "height": 0,
+  "width": 240
+},
+      "type": "inbox"
     }
   ],
   [
     {
+      "hotkeyLangId": "bookmark",
+      "icon": "iconBookmark",
       "show": false,
       "size": {
   "height": 0,
@@ -284,7 +412,9 @@
       "type": "bookmark"
     },
     {
-      "show": true,
+      "hotkeyLangId": "tag",
+      "icon": "iconTags",
+      "show": false,
       "size": {
   "height": 0,
   "width": 240
@@ -296,24 +426,30 @@
     "right": [
   [
     {
+      "hotkeyLangId": "graphView",
+      "icon": "iconGraph",
       "show": false,
       "size": {
   "height": 0,
-  "width": 517
+  "width": 360
 },
       "type": "graph"
     },
     {
-      "show": true,
+      "hotkeyLangId": "globalGraph",
+      "icon": "iconGlobalGraph",
+      "show": false,
       "size": {
   "height": 0,
-  "width": 162
+  "width": 360
 },
       "type": "globalGraph"
     }
   ],
   [
     {
+      "hotkeyLangId": "backlinks",
+      "icon": "iconLink",
       "show": false,
       "size": {
   "height": 0,
@@ -330,17 +466,18 @@
     "displayTitle": true,
     "displayVIP": true
   },
-  "rsa": {
-    "privateKey": "78efdf7115f8e19dd78d8ebfd7f53d6e848d5aaf0cc3a3b9d9d4bdf3e73e10bef4a6c1614667ef45a5fefe4a2f311f2d35b34e769fec891785a82548a32aad4807c699820be9c6a5104cb1aa5845f1443484bd7ae10f51b009656cfbf79bd0294864af98a274d7d70db13687310e4f908dcea8b3e13c7c39eb67918a5eb284aeef395578c58fecfc9af8867f93831ee63b40782136fb2ff5c57ff2e1a378571d84bf6948575d4c70b1b23608611d4bb0d128d5fdd54eb5713a2da8d67d1bb3d41f3206ca2961a00fdd660e2f21472ba6e94afa199182981737bb2e9a19981f00717c0310d34c2d4e44889f8c421cc3e49d0581373ed0b630a23feeaf5c5510e1a979e6127316811595fa3ad063f36ea407d59c63d765037e908ccdba92eecee1ee4d833dd5c1e61062998e38470d90848153ba23c9a06e20cdd9a05f76378bd0036f19f33d8804005038c7f6b7c85225a302e17bdecbb3e42e141ebe0ac60b4234d5f3cfa6f992e0490969aab5bba714848c3a768e74dfc574fac347ed2bf188dfd30063bcad6c4347972bad13c90d07e33d743829d9b24da62785f02dab29eaa15b9b0189d2dcb064b44b48a3791e41cbb764bc15e4e52ae2a6243972075bce470d79910a811e3826a3f5a92289bb07ab6a35c96334315896be04f01e3c8387619d563b5752b8b2dbed8dec106db1ef2c4fbb18fc654e6828f7e0172330eb4928411f970a858d3be24d49a946a1e34c436fa087d2cf69566345f2211b6f5d7457112f5daedd7c117249e59a1cfc258d956af18c97ba031691be6c26143d45731197f37085555f5ac640ab0e933be0587a54a6143c0d6f324c8f78d4be6eda5d2e1191612b8ee08baba154d538c11a4216561fe32bcc40b116031f0bfa579fde71e8dd3bcfdfd70c5cdf8af3daf4ed66c1ed01ed6b2fada7de5fbdf4413c945bf1b3aadcd893b9a1f0421379e89839d586d4ac8ac634b9b5a2f5cb3da7facc6fef3d923c15420c8d97b949dac14a030dfad323693d07f42a20c4a428bc42cd75508ebd9b2fb25f40f920a5b1ea45b676a7036d170ed1ae2667dcce545693fb96c514f750d365f3d675e624c0dd13e7798c975ea8806fd1bb793cc6a0bce6000eeee77451df61c255c142c2442c6b739afd5564de6903c0a0ecfa8d1fc7e0c7dd1a1f2d139460ae192ed0adeace0a1803745663ed92f378da51126bf08ebfbd18218e1626a5af388c31e2e7167f01c3044c551a936c0c71c2ca91782bf95891ad4f87f01f2c8b4064a6f53a32a53b250be82414c2037c56ef010ee81831da308908114258198d0f75b11947043edae4ac53a28395b42b3b1c8efb03dc4dd933191248c7e6aba783534e00e038df178d00cb65e41c750e79cc44da403602b29c28941ff0d0298d67a4ba29ccb3374e7da76212847058d5d7bdf1929bf155e20384efd5bb263b9a1770139fd5f4322e7bf836a279f09a9ce8aafa69c0267edfa1c1444a0e86e3663084acadb02e17d8e790cd97aea827c4591aff003500d1afc52cb91b5927917b3563e01a3494928e565d2c1304623768eb2d4340958f5ca5504132d17d1334e42b96b7dfbbbd48ab6a1240880927af212924804f72f6c5dbabdedb7f7e810268c13a84a21b36eded9a6cd673d055dcedefefa26abab4ca2fd83155ba577d6eeb7cf7c74c10962f45b868e02d1b1c06ea5126c1efe1b9d7de68d144fbde2a9b94b01acf8a18aaa1196e0f1b68769c3b16b55ce7caa536a245c754fa2ab2d2c910742fe990170186a2eeccd7d4dc033857f9fbbafa3464b7d737095cc0dcea56546cb592828fab07e04fb806de3e3cfed8cf79d9816659f29c5bd628b676777ecb1433881de93e013bebe46aee59fb295d8bc40a0fb888b021f8955554ee39fff1113fb06ca4491291f94ab83e9085f5575700e75237eb90562bb52f1ddb3d7e71580127e96bc5c1b6cf5e828576339c9aced7869306aede256a0aa78f1115f39e4387a3dd87be6ffd632120ddaade1a2253e652915859babd1435a9752e69d4e1c7fd9cf6289b9825b185a441e41e242461fab16f921dd760c6ee95794f95c9c2f599ce4b845fb379682748f79445a518b1cd529336c1b181e62e658171c4f4ec88db5ca8fcbf740c04e778dd3e6719772847d525eebc69f494db2bb6dfd4cedf8e16b8381e29fba3dce9aadc759781b0b34c705ecdea2daa77b0853ef9502fc30626ae47e39489a5643b13d2b900a91225d9e2c56f0ba536b7a1d2901b8300b26c9fe258d7ed670f150ab541f05f31df54ef5edf937e1d547bf8bf3f4c8fe6f467d68a093eb8a1bd6728ae69fa8fb1e744b31d8f1b32ccb444d9ef7070697d6ca024214eedc348c393af810b7a84e6d8abdfd16050556478f3ab6034db070ee65845c7fe17fc3b945b371073be169a67c934f12341dfbbd35fcf9d45f3a44db39aad8b421757c65a3bfb8654fbfc6a98748ac50f0732238dfdddef2080050cf73c0e0306a3ca21bf74d82bd6785c4da47c6504e09515bb28cc6ae284623633e148e406f1c875718ddfc9ef0419e3a0cc22da35c2dd2604c0a7085b676af19d9b3ef8e97cde7a4ab60a7105aa737069cc4f2f5fde9da7de4831730c7127e7a3cf1fbea442de0ec7d4a5eccff1bbca77fbaf41c9edaba85738827b1461662263c1b1350ffff9c1dc49087d3677db36f32f442954f932960a549c53b6bc8a107264938dc191cb4012e64037a1cf44b73e944242c604c2c48ef4bcb3921c76a8f1abb93ce33d9cd89d9274d09696ca7f9830c87b234b594826ad72543f4f9c547be709ce1d231d4ebd17cefcae24363c202057fadf8a22fd86a75222ba1436c36d5dbe2a463bb6f5ca358845e8736f66fd2f7ada7b64cc816413e8777521a057b06dbb97a25134181398e614e956b0bacf227911c587d8db8fb8b79250dc63b9ada5f16064f2e5eeab0c59cd1992a54893a458dc94af5107378b443565ea94a59c66a42312b42f06c085ac0ac388513113dbfd1070b7d32d13a7e070c3bee355ff48781be5f2be0e16bd5f04489652fd2d0c06bae07ddd7a242a78176360394cae701b1df2218b10accd32bdadf1e56e2506db750fbd44b862a4ee1dd3d83a441e2775ccbcbdabcddc7386307da857ecd8c7eff810c2f26167e24eada1454b85b5f5e54d36dc022fc9dd15bffd7120af1494bbce837a04ffc846554d320548e37bb94cc8488fbc2a8b9c7f445ae6aa9c8eea051ea24c9beebe0577922241993c68a9a879bc60f2e7717d34ac401b0756e51c8185150c1cc6fc9cb70f7112479cda9d285ac6441fc8bf7a7bcce6fab82987d8408be1723333a20398b2f4e71d7b38a8d9b4333d3457c241a5fcb41b410d8815ace2e14233300427af0d870751444f0b1a46147df50a964c19e32e11465944c4b55b15cf570ecfb250ab2420c35562a3c7377d50d6c2703da966e15531069d302d14d8b82885cec21dffbb0cd9b8b2f219dbf29f955bfa69bcd49863f09047e6e67be539de55aeb6acaac943c90447b880cf28437f47d3b859390c99bc9344310b2fb14e3f853b6747f6e93b50c2e78df76cdafd035256bd8961889e52ab0abc8394c3089397e0a017ae142fccbd0211130f3ee12e3200e6f9bfb7c2408ea3a575aa0325ae020ed09f9a45f5dc33d89ff426219ba6a61c3abf110ff6b40da9a95a220c17a1f640a7b9d46d842af58a16c39a5a6dbd759a1cc013f0acd809406ee2a711f4907dbe76b34d076a8aa63e215eac305ce8dbea1755ce2fdfe0776e2911ab34b686c88ae6bd9f1c363350e1d8e64432416f007887c376a158d13741c5750629cdc38c0d3997f910ecf8e6972c0fdc20db5f1b57f51686a7870f4ce3ca91eed92b52d93347eb303bf3e2b3a3ac9d2c85a36c3b37179ad2967d2010169c67c01e35961fa8d1933dc029aca4d0f179d497acd081136d451cfd7503b13fd444bb63dbd262b5eb15a39ec60b6416d48d21a86a95ac0b5ce8e32eff5a3ca937f8786f993635785f44b5e217a6a8aae8e0847a042a8b60c8cb232e7633863b36a21990d4a74dee53c2618994ecc1bff55a8125ac693d7d94436429452c55c8db0fdaddfe0f11f5fb32746e525ca9c4de148944bf6921296222c84e5d004bc3d56bac7eb4a6f923ed3a5a7c79ed01e90c2b173bdadb522523ce50ea40e52e4d91917af38d5133d32987c0674d194f182729086cb5129aa40512c8013eec2fad0a6dd3a13dbd8fa4cf68a1270059b5a06485a27e3c2df6d26900113e9c0f0c1f837595797d46152fbc3ab2aa0212e101220cd8eeeec85c1fc2513ecb76a58ccd0d4399d6d76cb6ef52803accd5805e6c544220cb12f54b7bc37946e110549bc42e150735a18fd084cd7526c65cb72f2c0b69da20080664a5f9b96973c2eb92997cd038bf435fc7e102e28b82cc1607efbd6e74907ab66303785cf8726c21ccef405d1b5e09f00d9fc925be1230d5e2563862f51e807c51d7ef02b7863db23be23500f478cf50c75b9955bed0840a4501c4352a1414722f22cac8281d77078b40b2748be9eb252ee74129b8fa1f8115dd50e456c152becd127de8cbb22d89d2598cafc6c045554d401a2038b5769eeac0d85f79986b39bc7bf66de24fcc2ba9d97fb5396bb3960919374090ea1eafb1dac1f55fb87d5474e454fb14f03015ec25ade5310e765f95fb1267473e4493d9435fe35f84740f6ef35fa7dc756f9703f0197e3714f265b56b3642cb",
-    "publicKey": "c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFDeHdKVVpQb3ZOR2xUdy9IZ1Fiem5YVEdYL0xtbWJ5SXlIZWxOMHFkdEduQUIzSTdVQTVoaFE0ZEdlNGVuTGlmZUNZSlczejZaWVM0QysveVJDbUUzc3ZXRGpVaUhzdHFBYVhuTmZDL1pxZytBaTlTSW1xcWtVb0FHRW9VZGk5bzQxd0cvVnhZLzFyNW1sbDRLZUFnM2FKY3pKTEtDT01tSzVOMm5FWnFocVlHUUpYaWx1RWp5a04yaWg1ZjRjN1pOcUw4L0hHelJ0MlRFMCtjVUF1a3ptQnkzV0JLd2o3dU1MN3RmQnE3RElGTHFvODA0elJIaXBQdzIwQnp3OTZaYmlOeHBFYlNsQ1JlU093bmwzaU1OcnBha3BIaldvc21xcXB6cW9kV2Vva09MdFVpanRLVCt0ZGVGNDZRVHI3L3ZRU3hPSDVISzZnZk5SbU9ZcjhYUEYK"
-  },
   "readonly": false,
-  "localServeURL": "http://192.168.31.201:6806",
+  "localIPs": [
+    "192.168.111.1",
+    "192.168.227.1",
+    "192.168.31.201"
+  ],
   "accessAuthCode": "",
   "e2eePasswd": "",
-  "checkUpdate": 0,
+  "e2eePasswdMode": 0,
   "system": {
-    "kernelVersion": "1.5.4",
+    "id": "ofpde740873c",
+    "kernelVersion": "2.0.7",
     "os": "windows",
     "container": "std",
     "isInsider": false,
@@ -355,7 +492,7 @@
       "host": "",
       "port": ""
     },
-    "useExistingDB": true
+    "uploadErrLog": false
   },
   "keymap": {
     "editor": {
@@ -380,9 +517,17 @@
   "custom": "⌥B",
   "default": "⌥B"
 },
+  "copyBlockEmbed": {
+  "custom": "⇧⌘E",
+  "default": "⇧⌘E"
+},
   "copyBlockRef": {
   "custom": "⇧⌘C",
   "default": "⇧⌘C"
+},
+  "copyHPath": {
+  "custom": "⇧⌘P",
+  "default": "⇧⌘P"
 },
   "copyProtocol": {
   "custom": "⇧⌘H",
@@ -392,17 +537,9 @@
   "custom": "⌥Y",
   "default": "⌥Y"
 },
-  "globalSearch": {
-  "custom": "⇧⌘F",
-  "default": "⇧⌘F"
-},
   "graphView": {
   "custom": "⌥G",
   "default": "⌥G"
-},
-  "history": {
-  "custom": "⌥H",
-  "default": "⌥H"
 },
   "insertAfter": {
   "custom": "⇧⌘A",
@@ -436,10 +573,6 @@
   "custom": "⇧⌘V",
   "default": "⇧⌘V"
 },
-  "ppt": {
-  "custom": "⌥⌘0",
-  "default": "⌥⌘0"
-},
   "preview": {
   "custom": "⌥⌘9",
   "default": "⌥⌘9"
@@ -449,16 +582,16 @@
   "default": "⌘Y"
 },
   "refBottom": {
-  "custom": "⌥.",
-  "default": "⌥."
+  "custom": "⇧\u003e",
+  "default": "⇧\u003e"
 },
   "refPopover": {
   "custom": "⌥⌘.",
   "default": "⌥⌘."
 },
   "refRight": {
-  "custom": "⇧\u003e",
-  "default": "⇧\u003e"
+  "custom": "⌥.",
+  "default": "⌥."
 },
   "refTab": {
   "custom": "⇧⌘.",
@@ -471,10 +604,6 @@
   "rename": {
   "custom": "F2",
   "default": "F2"
-},
-  "search": {
-  "custom": "⌘F",
-  "default": "⌘F"
 },
   "showInFolder": {
   "custom": "⌥A",
@@ -679,6 +808,10 @@
   "custom": "⌥9",
   "default": "⌥9"
 },
+  "globalSearch": {
+  "custom": "⌘P",
+  "default": "⌘P"
+},
   "goBack": {
   "custom": "⌘[",
   "default": "⌘["
@@ -690,6 +823,14 @@
   "graphView": {
   "custom": "⌥8",
   "default": "⌥8"
+},
+  "history": {
+  "custom": "⌥H",
+  "default": "⌥H"
+},
+  "inbox": {
+  "custom": "⌥6",
+  "default": "⌥6"
 },
   "lockScreen": {
   "custom": "⌥N",
@@ -707,9 +848,17 @@
   "custom": "⌥2",
   "default": "⌥2"
 },
+  "replace": {
+  "custom": "⌘R",
+  "default": "⌘R"
+},
   "search": {
-  "custom": "⌘P",
-  "default": "⌘P"
+  "custom": "⌘F",
+  "default": "⌘F"
+},
+  "stickSearch": {
+  "custom": "⇧⌘F",
+  "default": "⇧⌘F"
 },
   "tag": {
   "custom": "⌥4",
@@ -726,7 +875,6 @@
     "cloudName": "",
     "enabled": false,
     "interval": 0,
-    "method": 0,
     "uploaded": 0,
     "downloaded": 0,
     "synced": 0,
@@ -743,14 +891,24 @@
     "blockquote": false,
     "superBlock": false,
     "paragraph": true,
+    "htmlBlock": false,
     "limit": 32,
     "caseSensitive": false,
     "name": true,
     "alias": true,
-    "memo": true
+    "memo": true,
+    "custom": false,
+    "backlinkMentionName": false,
+    "backlinkMentionAlias": false,
+    "backlinkMentionAnchor": false,
+    "backlinkMentionDoc": false,
+    "virtualRefName": false,
+    "virtualRefAlias": false,
+    "virtualRefAnchor": false,
+    "virtualRefDoc": false
   },
   "stat": {
-    "docCount": 80
+    "docCount": 89
   },
   "api": {
     "token": "oylvf4hp7d8ojz2j"

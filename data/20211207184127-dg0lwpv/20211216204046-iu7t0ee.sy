@@ -84,6 +84,13 @@
 							"Data": "20211207212606-71mgk26"
 						},
 						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "Linux"
+						},
+						{
 							"Type": "NodeCloseParen"
 						},
 						{
@@ -114,6 +121,13 @@
 						{
 							"Type": "NodeBlockRefID",
 							"Data": "20211216205424-05ma8sy"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "GPIO"
 						},
 						{
 							"Type": "NodeCloseParen"

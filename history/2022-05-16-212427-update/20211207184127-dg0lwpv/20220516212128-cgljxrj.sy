@@ -1,0 +1,53 @@
+{
+	"ID": "20220516212128-cgljxrj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220516212128-cgljxrj",
+		"title": "2022-05-16",
+		"updated": "20220516212425"
+	},
+	"Children": [
+		{
+			"ID": "20220516212129-duq6ict",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212129-duq6ict",
+				"updated": "20220516212336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.255.255.255的地址块被分配给某些应用协议或组织使用。分配工作由IANA或IETF完成"
+				}
+			]
+		},
+		{
+			"ID": "20220516212336-o12oocx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212336-o12oocx",
+				"updated": "20220516212357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "本地网络块限制为发送方的本地网络"
+				}
+			]
+		},
+		{
+			"ID": "20220516212357-umgzq1t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212357-umgzq1t",
+				"updated": "20220516212425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "“所有主机”组（224.0.0.1）是"
+				}
+			]
+		}
+	]
+}

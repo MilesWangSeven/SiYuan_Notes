@@ -1,0 +1,33 @@
+{
+	"ID": "20220519211608-8m9jjlk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220519211608-8m9jjlk",
+		"title": "2022-05-19",
+		"updated": "20220519211750"
+	},
+	"Children": [
+		{
+			"ID": "20220519211608-nl90xrs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519211608-nl90xrs",
+				"updated": "20220519211750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在不需要路由器的Ad hoc（无线自组织）网络中， 一个单独的计算机可基于自己的IID形成唯一的组播地址，而无需运行一个复杂的许可协议。"
+				}
+			]
+		},
+		{
+			"ID": "20220519211750-f40jqzm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220519211750-f40jqzm",
+				"updated": "20220519211750"
+			}
+		}
+	]
+}

@@ -1,0 +1,449 @@
+{
+	"ID": "20220521211341-844z4sy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220521211341-844z4sy",
+		"title": "2022-05-21",
+		"updated": "20220521215638"
+	},
+	"Children": [
+		{
+			"ID": "20220521211341-2jsv1g7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521211341-2jsv1g7",
+				"updated": "20220521211402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv6组播空间中的保留地址"
+				}
+			]
+		},
+		{
+			"ID": "20220521214709-gu3ygxn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214709-gu3ygxn",
+				"updated": "20220521214718"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "地址\t\t\t范围\t\t\t特殊用途"
+				}
+			]
+		},
+		{
+			"ID": "20220521211402-7ubq23e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521211402-7ubq23e",
+				"updated": "20220521214732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff01::1 \t\t节点\t\t\t所有节点"
+				}
+			]
+		},
+		{
+			"ID": "20220521214732-6lea009",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214732-6lea009",
+				"updated": "20220521214744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff01::2\t\t节点\t\t\t所有路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521214744-8ke6ngh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214744-8ke6ngh",
+				"updated": "20220521214759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff01::fb\t\t节点\t\t\tmDNSv6"
+				}
+			]
+		},
+		{
+			"ID": "20220521214813-t7y0dd0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214813-t7y0dd0",
+				"updated": "20220521214813"
+			}
+		},
+		{
+			"ID": "20220521214759-30whtmb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214759-30whtmb",
+				"updated": "20220521214812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::1\t\t链路\t\t\t所有节点"
+				}
+			]
+		},
+		{
+			"ID": "20220521214814-xcpaiez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214814-xcpaiez",
+				"updated": "20220521214829"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::2\t\t链路\t\t\t所有路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521214829-oe7uf8c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214829-oe7uf8c",
+				"updated": "20220521214844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::4\t\t链路\t\t\t所有DVMRP路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521214844-gyhkzb9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214844-gyhkzb9",
+				"updated": "20220521214858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::5\t\t链路\t\t\tOSPFIGP"
+				}
+			]
+		},
+		{
+			"ID": "20220521214858-q4cq3u0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214858-q4cq3u0",
+				"updated": "20220521214919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::6\t\t链路\t\t\t基于OSPFIGP设计的路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521214920-m154txs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521214920-m154txs",
+				"updated": "20220521215015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::9\t\t链路\t\t\tRIPng路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215016-eskbv40",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215016-eskbv40",
+				"updated": "20220521215029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::a\t\t链路\t\t\tEIGRP路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215029-qwech2x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215029-qwech2x",
+				"updated": "20220521215041"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::d\t\t链路\t\t\tPIM路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215041-l35oceb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215041-l35oceb",
+				"updated": "20220521215059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::16\t\t链路\t\t\t支持MLDv2的路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215100-mc95g67",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215100-mc95g67",
+				"updated": "20220521215113"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::6a\t\t链路\t\t\t所有探测器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215113-1y4e8cc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215113-1y4e8cc",
+				"updated": "20220521215130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::6d\t\t链路\t\t\tLL-MANET路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215130-ovks8bp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215130-ovks8bp",
+				"updated": "20220521215144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::fb\t\t链路\t\t\tmDNSv6"
+				}
+			]
+		},
+		{
+			"ID": "20220521215144-qlbxshq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215144-qlbxshq",
+				"updated": "20220521215207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::1:2\t\t链路\t\t\t所有DHCP代理"
+				}
+			]
+		},
+		{
+			"ID": "20220521215207-mpi748e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215207-mpi748e",
+				"updated": "20220521215258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::1:3\t\t链路\t\t\tLLMNR"
+				}
+			]
+		},
+		{
+			"ID": "20220521215221-aes1jik",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215221-aes1jik",
+				"updated": "20220521215303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff02::1:ffxx:xxxx 链路\t\t请求节点地址范围"
+				}
+			]
+		},
+		{
+			"ID": "20220521215304-f3n4j7e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215304-f3n4j7e",
+				"updated": "20220521215304"
+			}
+		},
+		{
+			"ID": "20220521215245-mkv4wna",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215245-mkv4wna",
+				"updated": "20220521215318"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff05::2\t\t站点\t\t\t所有路由器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215318-76260qr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215318-76260qr",
+				"updated": "20220521215335"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff05::fb\t\t站点\t\t\tmDNSv6"
+				}
+			]
+		},
+		{
+			"ID": "20220521215336-q54g5ck",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215336-q54g5ck",
+				"updated": "20220521215439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff05::1:3\t\t站点\t\t\t所有DHCP服务器"
+				}
+			]
+		},
+		{
+			"ID": "20220521215442-nhm4uwc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215442-nhm4uwc",
+				"updated": "20220521215442"
+			}
+		},
+		{
+			"ID": "20220521215442-p6vu1d4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215442-p6vu1d4",
+				"updated": "20220521215456"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff0x::\t\t可变\t\t\t保留"
+				}
+			]
+		},
+		{
+			"ID": "20220521215456-hhv23le",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215456-hhv23le",
+				"updated": "20220521215514"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff0x::fb\t\t可变\t\t\tmDNSv6"
+				}
+			]
+		},
+		{
+			"ID": "20220521215514-72zxbes",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215514-72zxbes",
+				"updated": "20220521215534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff0x::101\t\t可变\t\t\tNTP"
+				}
+			]
+		},
+		{
+			"ID": "20220521215534-7g802x6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215534-7g802x6",
+				"updated": "20220521215553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff0x::133\t\t可变\t\t\t聚合服务器访问协议"
+				}
+			]
+		},
+		{
+			"ID": "20220521215553-5qi3qjw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215553-5qi3qjw",
+				"updated": "20220521215622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff0x::18c\t\t可变\t\t\t所有AC地址（CAPWAP)"
+				}
+			]
+		},
+		{
+			"ID": "20220521215638-7l9pd2n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215638-7l9pd2n",
+				"updated": "20220521215638"
+			}
+		},
+		{
+			"ID": "20220521215622-vg4d3yr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220521215622-vg4d3yr",
+				"updated": "20220521215637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ff3x::/32\t\t特殊\t\t\tSSM块"
+				}
+			]
+		}
+	]
+}

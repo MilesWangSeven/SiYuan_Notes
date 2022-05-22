@@ -1,0 +1,525 @@
+{
+	"ID": "20220515211813-7b7t4vn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220515211813-7b7t4vn",
+		"title": "2022-05-15",
+		"updated": "20220515213715"
+	},
+	"Children": [
+		{
+			"ID": "20220515211813-4d5584e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515211813-4d5584e",
+				"updated": "20220515211911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在软件控制下，每个Internet主机中的协议栈能加入或离开一个组播组。"
+				}
+			]
+		},
+		{
+			"ID": "20220515211854-6j17vtq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515211854-6j17vtq",
+				"updated": "20220515212026"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当一台主机向一个组发送数据时，它会创建一个数据报："
+				}
+			]
+		},
+		{
+			"ID": "20220515212026-gc8sfi9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212026-gc8sfi9",
+				"updated": "20220515212124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用（单播）IP地址作为源地址，使用组播地址作为目的地址。已加入组的所有主机将接收发送到该组的任何数据报。"
+				}
+			]
+		},
+		{
+			"ID": "20220515212129-ymcdv7s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212129-ymcdv7s",
+				"updated": "20220515212202"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发送方通常不知道主机是否收到数据报，除非主机有明确应答。"
+				}
+			]
+		},
+		{
+			"ID": "20220515212203-utabfo6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212203-utabfo6",
+				"updated": "20220515212228"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发送方也不知道有多少台主机收到它的数据报"
+				}
+			]
+		},
+		{
+			"ID": "20220515212628-gyzh2mn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220515212628-gyzh2mn",
+				"updated": "20220515212629"
+			},
+			"Children": [
+				{
+					"ID": "20220515212628-r2zhq6u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220515212628-r2zhq6u",
+						"updated": "20220515212629"
+					},
+					"Children": [
+						{
+							"ID": "20220515212228-as6xgs1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220515212228-as6xgs1",
+								"updated": "20220515212629"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原有的组播服务模型已成为大家所知的"
+								},
+								{
+									"Type": "NodeTag",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeTagOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "任意源组播"
+										},
+										{
+											"Type": "NodeTagCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "ASM"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "),这个模型下："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220515212344-pyjb9vw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212344-pyjb9vw",
+				"updated": "20220515212431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t任何发送方可发给任何组；一个加入组的接收方被指定唯一的组地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220515212636-gnim0xe",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220515212636-gnim0xe",
+				"updated": "20220515212636"
+			},
+			"Children": [
+				{
+					"ID": "20220515212636-zl1hx6c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220515212636-zl1hx6c",
+						"updated": "20220515212636"
+					},
+					"Children": [
+						{
+							"ID": "20220515212500-mrrab9l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220515212500-mrrab9l",
+								"updated": "20220515212636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一种新方案称为"
+								},
+								{
+									"Type": "NodeTag",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeTagOpenMarker"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "源特定组播"
+										},
+										{
+											"Type": "NodeTagCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "SSM"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "):"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220515212556-mveinuy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212556-mveinuy",
+				"updated": "20220515212727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t当一台主机加入一个组后，它会被指定一个信道地址，其中包括一个组地址和一个源IP地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220515212744-etnd2ae",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212744-etnd2ae",
+				"updated": "20220515212844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SSM避免了ASM模型部署时的复杂性。尽管有多种组播形式在整个Internet中广泛使用，但SSM在当前更受欢迎"
+				}
+			]
+		},
+		{
+			"ID": "20220515212845-ga05srh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212845-ga05srh",
+				"updated": "20220515212912"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv4组播地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220515212915-av692xd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515212915-av692xd",
+				"updated": "20220515213136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "D类空间（224.0.0.0 ~ 239.255.255.255)已被保留支持组播。28位空闲意味可以提供2^28 = 268 435 456个主机组（每个组是一个IP地址）"
+				}
+			]
+		},
+		{
+			"ID": "20220515213138-yltj3ks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213138-yltj3ks",
+				"updated": "20220515213217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个地址空间被分为几个主要部分，它建立在对路由分配和处理的基础上"
+				}
+			]
+		},
+		{
+			"ID": "20220515213219-ug8a6z7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213219-ug8a6z7",
+				"updated": "20220515213229"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "范围（包含）\t\t\t\t特殊用途"
+				}
+			]
+		},
+		{
+			"ID": "20220515213230-m5cpl3k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213230-m5cpl3k",
+				"updated": "20220515213309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.0.0.0 ~ 224.0.0.255\t\t本地网络控制：不转发"
+				}
+			]
+		},
+		{
+			"ID": "20220515213249-pb4guu6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213249-pb4guu6",
+				"updated": "20220515213322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.0.1.0 ~ 224.0.1.255\t\t互联网络控制，正常转发"
+				}
+			]
+		},
+		{
+			"ID": "20220515213325-th6gf5x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213325-th6gf5x",
+				"updated": "20220515213426"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.0.2.0 ~ 224.0.255.255\tAd hoc 块 1"
+				}
+			]
+		},
+		{
+			"ID": "20220515213350-bpyz5ho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213350-bpyz5ho",
+				"updated": "20220515213425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.1.0.0 ~ 224.1.255.255\t保留"
+				}
+			]
+		},
+		{
+			"ID": "20220515213427-5qiy1ly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213427-5qiy1ly",
+				"updated": "20220515213443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.2.0.0 ~ 224.2.255.255\tSDP/SAP"
+				}
+			]
+		},
+		{
+			"ID": "20220515213443-kcy6akl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213443-kcy6akl",
+				"updated": "20220515213510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.3.0.0 ~ 224.4.255.255\tAd hoc 块 2"
+				}
+			]
+		},
+		{
+			"ID": "20220515213500-gwtwgl2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213500-gwtwgl2",
+				"updated": "20220515213546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.5.0.0 ~ 224.255.255.255\t保留"
+				}
+			]
+		},
+		{
+			"ID": "20220515213530-epfn24t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213530-epfn24t",
+				"updated": "20220515213556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "225.0.0.0 ~ 231.255.255.255 \t保留"
+				}
+			]
+		},
+		{
+			"ID": "20220515213604-9fhtno3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213604-9fhtno3",
+				"updated": "20220515213635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "232.0.0.0 ~ 232.255.255.255\t源特定组播(SSM)"
+				}
+			]
+		},
+		{
+			"ID": "20220515213636-a7ip7nd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213636-a7ip7nd",
+				"updated": "20220515213703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "233.0.0.0 ~ 233.251.255.255 GLOP"
+				}
+			]
+		},
+		{
+			"ID": "20220515213703-4ois2v9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213703-4ois2v9",
+				"updated": "20220515213715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "233.252.0.0 ~ 2"
+				}
+			]
+		},
+		{
+			"ID": "20220515213628-o5x6p9b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213628-o5x6p9b",
+				"updated": "20220515213628"
+			}
+		},
+		{
+			"ID": "20220515213556-ov5hbj6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220515213556-ov5hbj6",
+				"updated": "20220515213556"
+			}
+		}
+	]
+}

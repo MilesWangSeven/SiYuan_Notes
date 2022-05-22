@@ -1,0 +1,92 @@
+{
+	"ID": "20220518211505-fpca0ma",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220518211505-fpca0ma",
+		"title": "2022-05-18",
+		"updated": "20220518211925"
+	},
+	"Children": [
+		{
+			"ID": "20220518211505-u5pdzri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220518211505-u5pdzri",
+				"updated": "20220518211749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在IPv6组播地址中，当P（使用单播前缀）设置为1，无需基于每个组的全球性许可，对组播地址有两种可选方法："
+				}
+			]
+		},
+		{
+			"ID": "20220518211749-0z6muma",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220518211749-0z6muma",
+				"updated": "20220518211925"
+			},
+			"Children": [
+				{
+					"ID": "20220518211758-nn5z5qh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220518211758-nn5z5qh",
+						"updated": "20220518211925"
+					},
+					"Children": [
+						{
+							"ID": "20220518211758-fv9869r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518211758-fv9869r",
+								"updated": "20220518211925"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于单播前缀的IPv6组播地址分配，有ISP或地址分配机构提供的单播前缀分配，并且有效分配一个组播地址集合，从而限制因避免重复而需要全球协调的数量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220518211925-ix92hrm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220518211925-ix92hrm",
+						"updated": "20220518211925"
+					},
+					"Children": [
+						{
+							"ID": "20220518211925-5jf1kfe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220518211925-5jf1kfe",
+								"updated": "20220518211925"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,319 @@
+{
+	"ID": "20220516212128-cgljxrj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220516212128-cgljxrj",
+		"title": "2022-05-16",
+		"updated": "20220516213426"
+	},
+	"Children": [
+		{
+			"ID": "20220516212129-duq6ict",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212129-duq6ict",
+				"updated": "20220516212336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "224.255.255.255的地址块被分配给某些应用协议或组织使用。分配工作由IANA或IETF完成"
+				}
+			]
+		},
+		{
+			"ID": "20220516212336-o12oocx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212336-o12oocx",
+				"updated": "20220516212357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "本地网络块限制为发送方的本地网络"
+				}
+			]
+		},
+		{
+			"ID": "20220516212357-umgzq1t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212357-umgzq1t",
+				"updated": "20220516212433"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "“所有主机”组（224.0.0.1）是这个块中一个组。"
+				}
+			]
+		},
+		{
+			"ID": "20220516212440-6x34xxp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212440-6x34xxp",
+				"updated": "20220516212550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "互联网控制块类似于本地网络控制范围，其目的是控制需要被路由到本地链路的流量。例如网络时间协议（NTP）组播组（224.0.0.1）"
+				}
+			]
+		},
+		{
+			"ID": "20220516212554-is30br3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212554-is30br3",
+				"updated": "20220516212746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一个Ad hoc（特定）块用于保留一些地址，避免它们落入本地或互联网络控制块。在此范围大多数分配是用于商业服务。可能最终被返还以支持GLOP寻址"
+				}
+			]
+		},
+		{
+			"ID": "20220516212747-ciy7ibm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212747-ciy7ibm",
+				"updated": "20220516213105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SDP/SAP块中包含某些应用所使用的地址，例如"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "会话目录工具"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "SDR"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ")，使用"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "会话通告协议"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "SAP"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）发送组播会议通告。"
+				}
+			]
+		},
+		{
+			"ID": "20220516212953-zufbvv3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516212953-zufbvv3",
+				"updated": "20220516213057"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新的"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "会话描述协议"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "SDP"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）最初是SAP的一个组成部分，当前不仅用于IP组播，还与其他机制一起描述多媒体会话"
+				}
+			]
+		},
+		{
+			"ID": "20220516213106-zfy22s1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516213106-zfy22s1",
+				"updated": "20220516213215"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他主要地址块出现稍晚于IP组播的演变。某些应用使用SSM块实现SSM，结合自己的单播源地址形成一个SSM信道。"
+				}
+			]
+		},
+		{
+			"ID": "20220516213216-nw5kmdk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516213216-nw5kmdk",
+				"updated": "20220516213245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "AS号用于ISP之间的Internet范围的路由协议，以聚合路由器和实现路由策略。"
+				}
+			]
+		},
+		{
+			"ID": "20220516213249-m3bwgg0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516213249-m3bwgg0",
+				"updated": "20220516213307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "AS号最初是16位，现在已扩展到32位"
+				}
+			]
+		},
+		{
+			"ID": "20220516213307-etaa879",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516213307-etaa879",
+				"updated": "20220516213341"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GLOP地址的生成是一个将16位AS号放在IPv4组播地址的第2和第3字节"
+				}
+			]
+		},
+		{
+			"ID": "20220516213342-51bsqd4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516213342-51bsqd4",
+				"updated": "20220516213401"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "并且保留1字节的地址空间表示可能的组播地址"
+				}
+			]
+		},
+		{
+			"ID": "20220516213401-we96xlf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220516213401-we96xlf",
+				"updated": "20220516213426"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此，它可在一个16位AS"
+				}
+			]
+		}
+	]
+}

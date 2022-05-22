@@ -1,0 +1,381 @@
+{
+	"ID": "20220514211744-csygo4v",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220514211744-csygo4v",
+		"title": "2022-05-14",
+		"updated": "20220514214321"
+	},
+	"Children": [
+		{
+			"ID": "20220514211744-lmq6tng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514211744-lmq6tng",
+				"updated": "20220514211806"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv4/IPv6地址转换"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220514211807-s3jfb53",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514211807-s3jfb53",
+				"updated": "20220514211932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "制定单播转换框架，正在开发的用于组播的方案。一个基本功能：自动的基于算法的地址转换"
+				}
+			]
+		},
+		{
+			"ID": "20220514211933-g0489bn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514211933-g0489bn",
+				"updated": "20220514212225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "嵌入IPv4的IPv6地址，可用6种格式之恶来来编码，前缀长度必须是：32、40、48、56、64或96"
+				}
+			]
+		},
+		{
+			"ID": "20220514212641-1rpbaf2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212641-1rpbaf2",
+				"updated": "20220514212648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前缀长度"
+				}
+			]
+		},
+		{
+			"ID": "20220514212228-jaxjcti",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212228-jaxjcti",
+				"updated": "20220514212753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "32\t\t\tIPv6前缀（32位）\t\tIPv4地址（32位）  \t\tu（8位）  \t\t后缀（56位）"
+				}
+			]
+		},
+		{
+			"ID": "20220514212806-0y2aap6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212806-0y2aap6",
+				"updated": "20220514212913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "40\t\t\tIPv6前缀（40位）\t\tIPv4地址（前24位）  \tu（8位）  \t\tIPv4地址（后8位）\t\t后缀（48位）"
+				}
+			]
+		},
+		{
+			"ID": "20220514212902-j9vzhtd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212902-j9vzhtd",
+				"updated": "20220514212928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "48\t\t\tIPv6前缀（48位）\t\tIPv4地址（前16位）  \tu（8位）  \t\tIPv4地址（后16位）\t\t后缀（40位）"
+				}
+			]
+		},
+		{
+			"ID": "20220514212910-doafrkg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212910-doafrkg",
+				"updated": "20220514212958"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "56\t\t\tIPv6前缀（56位）\t\tIPv4地址（前8位）  \t\tu（8位）  \t\tIPv4地址（后24位）\t\t后缀（32位）"
+				}
+			]
+		},
+		{
+			"ID": "20220514213003-7wuw7uk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213003-7wuw7uk",
+				"updated": "20220514213043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "64\t\t\tIPv6前缀（64位）\t\tu（8位）  \t\t\tIPv4地址（32位）\t后缀（24位）"
+				}
+			]
+		},
+		{
+			"ID": "20220514212958-a9ln670",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514212958-a9ln670",
+				"updated": "20220514213119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "96\t\t\tIPv6前缀（96位）\t\tIPv4地址（32位）"
+				}
+			]
+		},
+		{
+			"ID": "20220514213110-bc4wyx1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213110-bc4wyx1",
+				"updated": "20220514213227"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "取决于IPv6前缀长度，64:ff9b::/96可用于IPv4和IPv6单播地址之间的转化"
+				}
+			]
+		},
+		{
+			"ID": "20220514213259-a0wno2a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213259-a0wno2a",
+				"updated": "20220514213359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第64至71位必须设置为0，以保持与[RFC4291]指定标识符的兼容性"
+				}
+			]
+		},
+		{
+			"ID": "20220514213400-bp03xdm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213400-bp03xdm",
+				"updated": "20220514213450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后缀位被保留，并且应设置为0"
+				}
+			]
+		},
+		{
+			"ID": "20220514213451-oqdf3u3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213451-oqdf3u3",
+				"updated": "20220514213618"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "采用简单的方法来生成嵌入IPv4的IPv6地址：将IPv6前缀与32位IPv4地址相串联，并确保第64至71位被设置位0"
+				}
+			]
+		},
+		{
+			"ID": "20220514213618-tl32tor",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213618-tl32tor",
+				"updated": "20220514213638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在后缀后面增加0，直到生成一个128位地址"
+				}
+			]
+		},
+		{
+			"ID": "20220514213727-0gqd0ft",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213727-0gqd0ft",
+				"updated": "20220514213729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如："
+				}
+			]
+		},
+		{
+			"ID": "20220514213646-zy2kt0z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213646-zy2kt0z",
+				"updated": "20220514213743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv4地址198.51.100.16，使用96位前缀选型，生成64:ff9b::198.51.100.16"
+				}
+			]
+		},
+		{
+			"ID": "20220514213744-kxud237",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213744-kxud237",
+				"updated": "20220514213758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组播地址："
+				}
+			]
+		},
+		{
+			"ID": "20220514213759-qqtmxe8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213759-qqtmxe8",
+				"updated": "20220514213901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv4和IPv6支持组播寻址。一个IP组播地址（也称为组或组地址）标识一组主机接口，而不是单个"
+				}
+			]
+		},
+		{
+			"ID": "20220514213901-qxi2nc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213901-qxi2nc3",
+				"updated": "20220514213928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般来说，一个组可以跨越整个Internet。"
+				}
+			]
+		},
+		{
+			"ID": "20220514213929-19s5tei",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213929-19s5tei",
+				"updated": "20220514213957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组覆盖的网络部分称为组的范围。"
+				}
+			]
+		},
+		{
+			"ID": "20220514213959-dfpg7rc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514213959-dfpg7rc",
+				"updated": "20220514214044"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见的范围： 节点本地（同一计算机）、链路本地（同一子网）、站点本地（适用于一些站点）、全球（整个Internet）和管理"
+				}
+			]
+		},
+		{
+			"ID": "20220514214053-sf89elh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514214053-sf89elh",
+				"updated": "20220514214242"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理范围的地址，可用于一个网络区域内已手动配置到路由器的地址。站点管理员可将路由器配置为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "管理范围边界"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。则相关组的组播流量不会被路由器转发"
+				}
+			]
+		},
+		{
+			"ID": "20220514214243-ozw4hju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220514214243-ozw4hju",
+				"updated": "20220514214321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：站点本地和管理范围只在使用组播寻址时有效"
+				}
+			]
+		}
+	]
+}
