@@ -1,0 +1,173 @@
+{
+	"ID": "20220601210650-9km8opp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220601210650-9km8opp",
+		"title": "2022-06-01",
+		"updated": "20220601212634"
+	},
+	"Children": [
+		{
+			"ID": "20220601210650-jrq1f1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601210650-jrq1f1r",
+				"updated": "20220601212208"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "链路层"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220601212209-4toxg66",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212209-4toxg66",
+				"updated": "20220601212217"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "引言："
+				}
+			]
+		},
+		{
+			"ID": "20220601212218-eiphon7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212218-eiphon7",
+				"updated": "20220601212307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCP/IP协议族中设计链路层的目的是为了IP模块发送和接收IP数据报。"
+				}
+			]
+		},
+		{
+			"ID": "20220601212311-tic1df6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212311-tic1df6",
+				"updated": "20220601212358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可用于携带一些支持IP的辅助性协议，例如ARP（见第4章）。"
+				}
+			]
+		},
+		{
+			"ID": "20220601212359-05dlgj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212359-05dlgj2",
+				"updated": "20220601212438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCP/IP支持多种不同链路层，依赖于使用的网络硬件类型："
+				}
+			]
+		},
+		{
+			"ID": "20220601212438-cqr9ubf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212438-cqr9ubf",
+				"updated": "20220601212555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有线局域网，例如以太网"
+				}
+			]
+		},
+		{
+			"ID": "20220601212455-inwyzjz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212455-inwyzjz",
+				"updated": "20220601212600"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "城域网（MAN），例如服务供应商提供的有线电视和DSL连接"
+				}
+			]
+		},
+		{
+			"ID": "20220601212530-uam52be",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212530-uam52be",
+				"updated": "20220601212613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有线语音网络，例如支持调制解调器的电话线"
+				}
+			]
+		},
+		{
+			"ID": "20220601212615-6128dzw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212615-6128dzw",
+				"updated": "20220601212631"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "无线网络，例如Wi-Fi（无线局域网）"
+				}
+			]
+		},
+		{
+			"ID": "20220601212631-4y1v8i6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212631-4y1v8i6",
+				"updated": "20220601212634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于"
+				}
+			]
+		},
+		{
+			"ID": "20220601212341-smvgs7j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601212341-smvgs7j",
+				"updated": "20220601212341"
+			}
+		}
+	]
+}

@@ -1,0 +1,435 @@
+{
+	"ID": "20220529222455-xka19je",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220529222455-xka19je",
+		"title": "2022-05-29",
+		"updated": "20220529224603"
+	},
+	"Children": [
+		{
+			"ID": "20220529222455-uu40eat",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529222455-uu40eat",
+				"updated": "20220529222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果站点使用PI空间，流量分配更对称。"
+				}
+			]
+		},
+		{
+			"ID": "20220529222851-zqf1r8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529222851-zqf1r8n",
+				"updated": "20220529222951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当站点S的C、D点的PI前缀 198.134.135.0/24分别通知ISP的P1和P2"
+				}
+			]
+		},
+		{
+			"ID": "20220529222951-2cfvr0h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529222951-2cfvr0h",
+				"updated": "20220529223039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "任一ISP都不能聚合它，因为它与ISP地址块中任何一个数值不相邻"
+				}
+			]
+		},
+		{
+			"ID": "20220529223039-2zgvaco",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223039-2zgvaco",
+				"updated": "20220529223126"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "它们前端通知可识别前缀198.134.135.0/24"
+				}
+			]
+		},
+		{
+			"ID": "20220529223127-ruofu4c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223127-ruofu4c",
+				"updated": "20220529223149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种方式下，Internet路由中执行“自然的”最短路径计算。"
+				}
+			]
+		},
+		{
+			"ID": "20220529223442-dov1m0a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223442-dov1m0a",
+				"updated": "20220529223456"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "站点S可通过更靠近发送主机的ISP到达。"
+				}
+			]
+		},
+		{
+			"ID": "20220529223456-xb1js0a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223456-xb1js0a",
+				"updated": "20220529223523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另外，如果站点S决定切换ISP，它不需要改变其分配的地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220529223523-qcgxe0w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223523-qcgxe0w",
+				"updated": "20220529223707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但这种无法聚合的地址可能关系到Internet未来的扩展性，因此PI空间相对供不应求。"
+				}
+			]
+		},
+		{
+			"ID": "20220529223707-r0qlkbr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223707-r0qlkbr",
+				"updated": "20220529223724"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "IPv6多宿主"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220529223724-ftreu0n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223724-ftreu0n",
+				"updated": "20220529223803"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "已成为IETF研究课题，并出现Multi6体系结构和Shim6协议"
+				}
+			]
+		},
+		{
+			"ID": "20220529223803-qkbfiew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223803-qkbfiew",
+				"updated": "20220529223821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Multi6概况了一些已提出处理意见的方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220529223821-kdwsy8e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223821-kdwsy8e",
+				"updated": "20220529223908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "广义上，上述选择包括使用一种相当前面提到的IPv4多宿主的路由方式、使用移动IPv6的能力"
+				}
+			]
+		},
+		{
+			"ID": "20220529223908-gqcc33i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223908-gqcc33i",
+				"updated": "20220529223926"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以及采用一种节点标识符与定位符分离的新方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220529223926-3p5x1xp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223926-3p5x1xp",
+				"updated": "20220529224016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当前IP地址作为连接Internet的一个网络接口"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "标识符"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（本质上是一种名称）和"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "定位符"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（一种路由系统理解的地址）"
+				}
+			]
+		},
+		{
+			"ID": "20220529224018-4563fd9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224018-4563fd9",
+				"updated": "20220529224046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种分离使得将来即使在底层IP地址改变的情况下网络协议也能实现。"
+				}
+			]
+		},
+		{
+			"ID": "20220529224048-obfwe3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224048-obfwe3h",
+				"updated": "20220529224128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提供这种分离的协议有时称为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "标识符/定位符分离"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 或 "
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "id/loc分离"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 协议"
+				}
+			]
+		},
+		{
+			"ID": "20220529224129-rgh9ap2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224129-rgh9ap2",
+				"updated": "20220529224226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Shim6介绍了一个网络层协议“隔离层”（shim），传输层协议使用它分离来自IP地址的“上层协议标识符”。"
+				}
+			]
+		},
+		{
+			"ID": "20220529224234-2dpzjtp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224234-2dpzjtp",
+				"updated": "20220529224324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "多宿主通过选择使用的IP地址（定位符）来实现，基于动态网络环境且不需要PI地址分配。"
+				}
+			]
+		},
+		{
+			"ID": "20220529224324-van607a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224324-van607a",
+				"updated": "20220529224411"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通信主机（端点）之间对使用的定位符及交换的时机进行协商。"
+				}
+			]
+		},
+		{
+			"ID": "20220529224411-kg2nhuc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224411-kg2nhuc",
+				"updated": "20220529224428"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标识符和定位符分离是其他几项工作的主题。"
+				}
+			]
+		},
+		{
+			"ID": "20220529224428-ckoda6j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224428-ckoda6j",
+				"updated": "20220529224510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "包括实验性的主机标识协议（HIP），它使用加密的主机标识符来标识主机。"
+				}
+			]
+		},
+		{
+			"ID": "20220529224510-nmkg5vf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224510-nmkg5vf",
+				"updated": "20220529224540"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种标识符实际上是与主机相关的公共/私人密钥对中的公钥"
+				}
+			]
+		},
+		{
+			"ID": "20220529224540-rougkov",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529224540-rougkov",
+				"updated": "20220529224603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此来源于一个特定主机的HIP流量可被认证。"
+				}
+			]
+		},
+		{
+			"ID": "20220529223713-wfny5kv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223713-wfny5kv",
+				"updated": "20220529223716"
+			}
+		}
+	]
+}

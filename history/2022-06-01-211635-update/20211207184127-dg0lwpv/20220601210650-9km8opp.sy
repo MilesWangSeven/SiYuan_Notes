@@ -1,0 +1,19 @@
+{
+	"ID": "20220601210650-9km8opp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220601210650-9km8opp",
+		"title": "2022-06-01",
+		"updated": "20220601210655"
+	},
+	"Children": [
+		{
+			"ID": "20220601210650-jrq1f1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220601210650-jrq1f1r",
+				"updated": "20220601210650"
+			}
+		}
+	]
+}

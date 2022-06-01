@@ -1,0 +1,101 @@
+{
+	"ID": "20220523210134-pb4k37h",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220523210134-pb4k37h",
+		"title": "2022-05-23",
+		"updated": "20220523212054"
+	},
+	"Children": [
+		{
+			"ID": "20220523210134-yht9bvj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220523210134-yht9bvj",
+				"updated": "20220523210218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RIP,这些实体通常处理较大的地址块。"
+				}
+			]
+		},
+		{
+			"ID": "20220523210224-tu4gcmk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220523210224-tu4gcmk",
+				"updated": "20220523211701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "他们为一些国家（例如澳大利亚和新加坡）运营的小型注册机构和大型ISP分配地址空间。"
+				}
+			]
+		},
+		{
+			"ID": "20220523211703-ohklxkx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220523211703-ohklxkx",
+				"updated": "20220523211738"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接下来，ISP为自己和自己的客户提供地址空间。"
+				}
+			]
+		},
+		{
+			"ID": "20220523211738-wnevhs6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220523211738-wnevhs6",
+				"updated": "20220523211953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当用户登记Internet服务时，通常以地址前缀形式使用ISP地址空间的一部分（通常很小）。这些地址范围由客户的ISP拥有和管理，并被称为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "供应商聚合"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（PA）的地址"
+				}
+			]
+		},
+		{
+			"ID": "20220523211953-44zid6p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220523211953-44zid6p",
+				"updated": "20220523212054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是由于它们包含一个或多个前缀，并可与ISP的其他前缀实现聚合。这种地址有时也称为不可移植的地址。"
+				}
+			]
+		}
+	]
+}

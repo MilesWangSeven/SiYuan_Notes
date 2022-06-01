@@ -1,0 +1,123 @@
+{
+	"ID": "20220531204859-35zbbs9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220531204859-35zbbs9",
+		"title": "2022-05-31",
+		"updated": "20220531205850"
+	},
+	"Children": [
+		{
+			"ID": "20220531204859-fgvva6r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531204859-fgvva6r",
+				"updated": "20220531204926"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "与IP地址相关的攻击"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220531204927-e29aaa7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531204927-e29aaa7",
+				"updated": "20220531205249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IP地址基本上都是数字，只有少数网络攻击涉及它们。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205249-h0hrlg7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205249-h0hrlg7",
+				"updated": "20220531205345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般情况下，执行攻击可发送“欺骗”数据包或其他相关活动。也就是说，IP地址现在有助于查明涉嫌不良活动的个体。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205346-ysbe7mr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205346-ysbe7mr",
+				"updated": "20220531205419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这样做可能被以下几个原因所误导："
+				}
+			]
+		},
+		{
+			"ID": "20220531205419-w5s4kzr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205419-w5s4kzr",
+				"updated": "20220531205535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "很多情况下，IP地址只是暂时的，并在不同时间重新分配给不同用户。因此在精确计时中出现任何错误，容易造成数据库中的IP地址到用户的映射出错。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205536-x894new",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205536-x894new",
+				"updated": "20220531205809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "访问控制没有被广泛和安全的部署；用户可能通过一些公共接入点，或一些无意中开放的家庭或办公室的无线路由器连接Internet。这种情况下，不知情的家庭或企业所有者可能因IP地址而成为嫌疑人。这种情况也可能因受攻击的主机被用于组成僵尸网络而发生。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205815-ohuaa3b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205815-ohuaa3b",
+				"updated": "20220531205850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前，这类计算机（或路由器）可通过基于Internet的黑市来租赁，并被用于执行攻击、"
+				}
+			]
+		}
+	]
+}

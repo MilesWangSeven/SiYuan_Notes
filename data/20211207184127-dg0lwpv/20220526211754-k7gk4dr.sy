@@ -1,0 +1,442 @@
+{
+	"ID": "20220526211754-k7gk4dr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220526211754-k7gk4dr",
+		"title": "2022-05-26",
+		"updated": "20220526213851"
+	},
+	"Children": [
+		{
+			"ID": "20220526211754-29ao4kr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211754-29ao4kr",
+				"updated": "20220526211815"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "组播"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220526211816-9iqdsjr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211816-9iqdsjr",
+				"updated": "20220526211913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在IPv4和IPv6中，组播地址（即组地址）可根据其范围来描述，它们需要确定组播方式："
+				}
+			]
+		},
+		{
+			"ID": "20220526211938-baqlf3f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220526211938-baqlf3f",
+				"updated": "20220526211939"
+			},
+			"Children": [
+				{
+					"ID": "20220526211938-e9jm537",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220526211938-e9jm537",
+						"updated": "20220526211939"
+					},
+					"Children": [
+						{
+							"ID": "20220526211913-589rz64",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220526211913-589rz64",
+								"updated": "20220526211939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "静态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220526211938-5jy2d86",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220526211938-5jy2d86",
+						"updated": "20220526211939"
+					},
+					"Children": [
+						{
+							"ID": "20220526211916-440opi9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220526211916-440opi9",
+								"updated": "20220526211939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "动态协议"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220526211938-6bdshqf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220526211938-6bdshqf",
+						"updated": "20220526211939"
+					},
+					"Children": [
+						{
+							"ID": "20220526211920-3qx93sj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220526211920-3qx93sj",
+								"updated": "20220526211939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "算法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220526211922-am9tqmy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211922-am9tqmy",
+				"updated": "20220526212216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以及是否使用ASM(Any-source Multicast)或SSM(Source-Specific Multicasting)，并由网络管理员配置管理范围之外的地址块或由端主机自动选择"
+				}
+			]
+		},
+		{
+			"ID": "20220526212217-latsvmq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212217-latsvmq",
+				"updated": "20220526212307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "静态分配的全球范围地址通常是固定的，并可能被硬件编码到应用中。这种地址空间是有限的"
+				}
+			]
+		},
+		{
+			"ID": "20220526212319-65wzzvp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212319-65wzzvp",
+				"updated": "20220526212417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过算法确定的3全球范围地址可以像GLOP基于AS号创建，或根据相关的单播前缀分配"
+				}
+			]
+		},
+		{
+			"ID": "20220526212420-hsl3n27",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212420-hsl3n27",
+				"updated": "20220526212503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：SSM可使用全球范围的地址（即来自SSM块）、管理范围的地址，或前缀实际为0的基于单播前缀的IPv6地址"
+				}
+			]
+		},
+		{
+			"ID": "20220526212512-6o44po9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212512-6o44po9",
+				"updated": "20220526212545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "大量的协议和复杂的组播地址格式，导致组播地址管理成为一个难题。"
+				}
+			]
+		},
+		{
+			"ID": "20220526212545-2ix2r3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212545-2ix2r3h",
+				"updated": "20220526212606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从用户角度看，组播很少使用，受关注有限"
+				}
+			]
+		},
+		{
+			"ID": "20220526212606-68amuwo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212606-68amuwo",
+				"updated": "20220526212629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从程序员角度看，在应用设计中支持组播可能是有价值的。"
+				}
+			]
+		},
+		{
+			"ID": "20220526212650-ea10b89",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212650-ea10b89",
+				"updated": "20220526212655"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单播"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220526212656-tcpbcwg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212656-tcpbcwg",
+				"updated": "20220526212700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单播地址分配："
+				}
+			]
+		},
+		{
+			"ID": "20220526212700-8lqu6sw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212700-8lqu6sw",
+				"updated": "20220526212724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个站点分配了单播IP地址范围后——通常是从自己的ISP处获得"
+				}
+			]
+		},
+		{
+			"ID": "20220526212728-hkgnyom",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212728-hkgnyom",
+				"updated": "20220526212756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "站点或网络管理员需要决定如何为每个网络接口指定地址，以及如何建立子网结构。"
+				}
+			]
+		},
+		{
+			"ID": "20220526212805-h4rppcu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212805-h4rppcu",
+				"updated": "20220526212831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果这个站点只有一个物理网段（如大多数家庭），这个过程相对简单"
+				}
+			]
+		},
+		{
+			"ID": "20220526212831-cg9v127",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212831-cg9v127",
+				"updated": "20220526212924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于规模较大的企业，尤其由多个ISP提供服务，并且多个物理网段分布在很大地理区域的企业，这个过程可能非常复杂。"
+				}
+			]
+		},
+		{
+			"ID": "20220526212940-s9iqvvk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212940-s9iqvvk",
+				"updated": "20220526213008"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单个供应商/无网络/单个地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220526213009-snj8h8c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526213009-snj8h8c",
+				"updated": "20220526213034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最简单的Internet服务是由ISP提供一个在一台计算机上使用的IP地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220526213038-zst3rw1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526213038-zst3rw1",
+				"updated": "20220526213148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于DSL服务，单个地址可被分配到一个点到点链路的一端，并可能只是暂时的。"
+				}
+			]
+		},
+		{
+			"ID": "20220526213148-3a40zar",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526213148-3a40zar",
+				"updated": "20220526213312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如，用户的计算机通过DSL连接到Internet，可能某天被分配地址63.204.134.177。计算机上任何程序可以发送接收Internet流量，这些流量将采用63.204.134.177作为源地址"
+				}
+			]
+		},
+		{
+			"ID": "20220526213313-n9zgd36",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526213313-n9zgd36",
+				"updated": "20220526213414"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这台主机同样还有其他活动的IP地址，例如本地“回送”地址127.0.0.1和一些组播地址（例如224.0.0.1）"
+				}
+			]
+		},
+		{
+			"ID": "20220526211939-jth00sx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211939-jth00sx",
+				"updated": "20220526213851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv6组播地址（ff02:1) ISP分配的任何IPv6地址，IPv6回送地址::1和每一个网络接口配置的一个用于IPv6链接本地地址"
+				}
+			]
+		}
+	]
+}

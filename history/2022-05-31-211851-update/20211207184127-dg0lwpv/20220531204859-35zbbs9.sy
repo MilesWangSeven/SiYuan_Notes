@@ -1,0 +1,442 @@
+{
+	"ID": "20220531204859-35zbbs9",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220531204859-35zbbs9",
+		"title": "2022-05-31",
+		"updated": "20220531211552"
+	},
+	"Children": [
+		{
+			"ID": "20220531204859-fgvva6r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531204859-fgvva6r",
+				"updated": "20220531204926"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "与IP地址相关的攻击"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220531204927-e29aaa7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531204927-e29aaa7",
+				"updated": "20220531205249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IP地址基本上都是数字，只有少数网络攻击涉及它们。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205249-h0hrlg7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205249-h0hrlg7",
+				"updated": "20220531205345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般情况下，执行攻击可发送“欺骗”数据包或其他相关活动。也就是说，IP地址现在有助于查明涉嫌不良活动的个体。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205346-ysbe7mr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205346-ysbe7mr",
+				"updated": "20220531205419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这样做可能被以下几个原因所误导："
+				}
+			]
+		},
+		{
+			"ID": "20220531210830-duzcj5q",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220531210830-duzcj5q",
+				"updated": "20220531210830"
+			},
+			"Children": [
+				{
+					"ID": "20220531210830-c5nlwk8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220531210830-c5nlwk8",
+						"updated": "20220531210830"
+					},
+					"Children": [
+						{
+							"ID": "20220531205419-w5s4kzr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220531205419-w5s4kzr",
+								"updated": "20220531210830"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "很多情况下，IP地址只是暂时的，并在不同时间重新分配给不同用户。因此在精确计时中出现任何错误，容易造成数据库中的IP地址到用户的映射出错。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220531210830-7usq83q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220531210830-7usq83q",
+						"updated": "20220531210830"
+					},
+					"Children": [
+						{
+							"ID": "20220531205536-x894new",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220531205536-x894new",
+								"updated": "20220531210830"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "访问控制没有被广泛和安全的部署；用户可能通过一些公共接入点，或一些无意中开放的家庭或办公室的无线路由器连接Internet。这种情况下，不知情的家庭或企业所有者可能因IP地址而成为嫌疑人。这种情况也可能因受攻击的主机被用于组成僵尸网络而发生。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220531205815-ohuaa3b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205815-ohuaa3b",
+				"updated": "20220531205859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前，这类计算机（或路由器）可通过基于Internet的黑市来租赁，并被用于执行攻击、非法内容服务和其他违法活动。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205911-87aya3f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205911-87aya3f",
+				"updated": "20220531205914"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "总结"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220531205915-if1bmgr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205915-if1bmgr",
+				"updated": "20220531205939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IP地址用于识别和定位整个Internet系统（单播地址）中设备的网络接口。"
+				}
+			]
+		},
+		{
+			"ID": "20220531205942-l12o9ki",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531205942-l12o9ki",
+				"updated": "20220531210004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "也用于识别多个接口（组播、广播或任播地址）。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210009-yvwf4pg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210009-yvwf4pg",
+				"updated": "20220531210043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个接口有一个最少32位的IP地址，并且通常有几个128位的IPv6地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210044-mogdpsu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210044-mogdpsu",
+				"updated": "20220531210145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单播地址由一些分层次组织的管理机构分配成块。由这些机构分配的前缀标识一个单播IP地址空间块，这些块通常分配给ISP，并由它们为自己的用户分配地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210150-2mijxue",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210150-2mijxue",
+				"updated": "20220531210304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种前缀通常是ISP地址块的子区间（成为供应商聚合的地址或PA地址），但也可能代之为用户拥有的地址（称为供应商独立的地址或PI地址）。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210308-8zmodkb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210308-8zmodkb",
+				"updated": "20220531210443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数值相邻的地址前缀（PA地址）可被聚合，以节省路由表空间和提高Internet扩展性。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210444-h3zs9fc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210444-h3zs9fc",
+				"updated": "20220531210530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种方法出现于由A、B、C类网络号组成的“有类别”Internet网络结构被无类别域间路由（CIDR）所取代时。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210530-t2nqbpy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210530-t2nqbpy",
+				"updated": "20220531210619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CIDR允许根据对地址空间不同需求，将不同大小的地址块分配给某个组织，CIDR实际上可更有效地分配地址空间。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210620-4ug23z1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210620-4ug23z1",
+				"updated": "20220531210657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "任播地址是根据发送者位置指向不同主机的单播地址；这种地址常用于发现可能出现在不同位置的网络服务。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210705-vo5iwps",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210705-vo5iwps",
+				"updated": "20220531210719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv6单播地址与IPv4地址有所不同。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210721-d2z75f3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210721-d2z75f3",
+				"updated": "20220531210813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最重要的是，IPv6地址有一个范围的概念，无论是单播地址还是组播地址，都需要明确指出地址的有效范围。典型的范围包括节点本地、链路本地和全球范围。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210815-h89x4qx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210815-h89x4qx",
+				"updated": "20220531210937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "链路本地地址通常基于一个标志前缀和一个IID创建，这个IID可由底层协议（例如硬件/MAC地址）基于地址提供或取随机值。这种方法有助于自动配置IPv6地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220531210937-ta5ktph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531210937-ta5ktph",
+				"updated": "20220531211022"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv4和IPv6都支持同时指向多个网络接口的地址格式。"
+				}
+			]
+		},
+		{
+			"ID": "20220531211024-wqqai8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531211024-wqqai8n",
+				"updated": "20220531211121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv4支持广播和组播地址，IPv6只支持组播地址。广播允许一人对所有人通信，而组播允许一人对多人通信。"
+				}
+			]
+		},
+		{
+			"ID": "20220531211158-u88uk72",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531211158-u88uk72",
+				"updated": "20220531211238"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有点类似电视频道，发送发不知道接收方信息或一个信道有多少个接收方。"
+				}
+			]
+		},
+		{
+			"ID": "20220531211245-x5a9usc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531211245-x5a9usc",
+				"updated": "20220531211345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Internet全球性组播已发展十多年，并且涉及很多协议，有的是针对路由，有些是针对地址分配和协调，有些是针对主机希望加入或离开一个组织的信息。"
+				}
+			]
+		},
+		{
+			"ID": "20220531211400-ggi8us2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531211400-ggi8us2",
+				"updated": "20220531211446"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IPv6组播地址格式变化提供了基于单播前缀分配组的方法，在组中嵌入路由信息（RP地址），并且能基于IID创建组播地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220531211447-4qcsyka",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220531211447-4qcsyka",
+				"updated": "20220531211552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CIDR的开发和部署时Internet核心路由系统的一个根本性变化。CIDR成功地为分配地址空间提供更多灵活性，并通过聚合提升路由的扩展性。"
+				}
+			]
+		}
+	]
+}

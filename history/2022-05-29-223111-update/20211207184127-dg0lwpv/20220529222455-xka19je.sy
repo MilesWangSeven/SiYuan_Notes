@@ -1,0 +1,61 @@
+{
+	"ID": "20220529222455-xka19je",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220529222455-xka19je",
+		"title": "2022-05-29",
+		"updated": "20220529223109"
+	},
+	"Children": [
+		{
+			"ID": "20220529222455-uu40eat",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529222455-uu40eat",
+				"updated": "20220529222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果站点使用PI空间，流量分配更对称。"
+				}
+			]
+		},
+		{
+			"ID": "20220529222851-zqf1r8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529222851-zqf1r8n",
+				"updated": "20220529222951"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当站点S的C、D点的PI前缀 198.134.135.0/24分别通知ISP的P1和P2"
+				}
+			]
+		},
+		{
+			"ID": "20220529222951-2cfvr0h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529222951-2cfvr0h",
+				"updated": "20220529223039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "任一ISP都不能聚合它，因为它与ISP地址块中任何一个数值不相邻"
+				}
+			]
+		},
+		{
+			"ID": "20220529223039-2zgvaco",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220529223039-2zgvaco",
+				"updated": "20220529223109"
+			}
+		}
+	]
+}

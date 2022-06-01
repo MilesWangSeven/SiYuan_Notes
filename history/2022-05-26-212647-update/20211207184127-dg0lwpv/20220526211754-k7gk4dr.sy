@@ -1,0 +1,254 @@
+{
+	"ID": "20220526211754-k7gk4dr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220526211754-k7gk4dr",
+		"title": "2022-05-26",
+		"updated": "20220526212629"
+	},
+	"Children": [
+		{
+			"ID": "20220526211754-29ao4kr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211754-29ao4kr",
+				"updated": "20220526211815"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "组播"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220526211816-9iqdsjr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211816-9iqdsjr",
+				"updated": "20220526211913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在IPv4和IPv6中，组播地址（即组地址）可根据其范围来描述，它们需要确定组播方式："
+				}
+			]
+		},
+		{
+			"ID": "20220526211938-baqlf3f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220526211938-baqlf3f",
+				"updated": "20220526211939"
+			},
+			"Children": [
+				{
+					"ID": "20220526211938-e9jm537",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220526211938-e9jm537",
+						"updated": "20220526211939"
+					},
+					"Children": [
+						{
+							"ID": "20220526211913-589rz64",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220526211913-589rz64",
+								"updated": "20220526211939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "静态"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220526211938-5jy2d86",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220526211938-5jy2d86",
+						"updated": "20220526211939"
+					},
+					"Children": [
+						{
+							"ID": "20220526211916-440opi9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220526211916-440opi9",
+								"updated": "20220526211939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "动态协议"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220526211938-6bdshqf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220526211938-6bdshqf",
+						"updated": "20220526211939"
+					},
+					"Children": [
+						{
+							"ID": "20220526211920-3qx93sj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220526211920-3qx93sj",
+								"updated": "20220526211939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "算法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220526211922-am9tqmy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211922-am9tqmy",
+				"updated": "20220526212216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以及是否使用ASM(Any-source Multicast)或SSM(Source-Specific Multicasting)，并由网络管理员配置管理范围之外的地址块或由端主机自动选择"
+				}
+			]
+		},
+		{
+			"ID": "20220526212217-latsvmq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212217-latsvmq",
+				"updated": "20220526212307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "静态分配的全球范围地址通常是固定的，并可能被硬件编码到应用中。这种地址空间是有限的"
+				}
+			]
+		},
+		{
+			"ID": "20220526212319-65wzzvp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212319-65wzzvp",
+				"updated": "20220526212417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过算法确定的3全球范围地址可以像GLOP基于AS号创建，或根据相关的单播前缀分配"
+				}
+			]
+		},
+		{
+			"ID": "20220526212420-hsl3n27",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212420-hsl3n27",
+				"updated": "20220526212503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：SSM可使用全球范围的地址（即来自SSM块）、管理范围的地址，或前缀实际为0的基于单播前缀的IPv6地址"
+				}
+			]
+		},
+		{
+			"ID": "20220526212512-6o44po9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212512-6o44po9",
+				"updated": "20220526212545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "大量的协议和复杂的组播地址格式，导致组播地址管理成为一个难题。"
+				}
+			]
+		},
+		{
+			"ID": "20220526212545-2ix2r3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212545-2ix2r3h",
+				"updated": "20220526212606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从用户角度看，组播很少使用，受关注有限"
+				}
+			]
+		},
+		{
+			"ID": "20220526212606-68amuwo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526212606-68amuwo",
+				"updated": "20220526212629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从程序员角度看，在应用设计中支持组播可能是有价值的。"
+				}
+			]
+		},
+		{
+			"ID": "20220526211939-jth00sx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220526211939-jth00sx",
+				"updated": "20220526211939"
+			}
+		}
+	]
+}

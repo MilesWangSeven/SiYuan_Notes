@@ -1,0 +1,392 @@
+{
+	"ID": "20220528213921-nx1yi9c",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220528213921-nx1yi9c",
+		"title": "2022-05-28",
+		"updated": "20220528215439"
+	},
+	"Children": [
+		{
+			"ID": "20220528213921-8ou1xm9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528213921-8ou1xm9",
+				"updated": "20220528213945"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单个供应商/单个网址/单个地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220528213946-r8cqxjy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528213946-r8cqxjy",
+				"updated": "20220528214029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "拥有多台计算机的Internet用户发现，只有一台计算机连接到Internet并不是理想情况。"
+				}
+			]
+		},
+		{
+			"ID": "20220528214029-q16214r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214029-q16214r",
+				"updated": "20220528214133"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为，通常拥有家庭局域网(LAN)与无线局域网(WLAN)，并使用一台路由器或主机作为路由器连接到Internet"
+				}
+			]
+		},
+		{
+			"ID": "20220528214133-p5rrao4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214133-p5rrao4",
+				"updated": "20220528214245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种配置与单个计算机情况相似，除了路由将分组从家庭网络转发到ISP，它们也执行了NAT，在于ISP通信时重写了分组中的IP地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220528214246-a6h48u9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214246-a6h48u9",
+				"updated": "20220528214257"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从ISP的角度来看，只有一个IP地址被使用。"
+				}
+			]
+		},
+		{
+			"ID": "20220528214301-1lvom6f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214301-1lvom6f",
+				"updated": "20220528214343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前这些操作大部分是自动的。通常由路由器使用DHCP为家庭用户提供自动地址分配"
+				}
+			]
+		},
+		{
+			"ID": "20220528214343-72el0gm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214343-72el0gm",
+				"updated": "20220528214405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如有必要，也为ISP建立链路提供地址分配。"
+				}
+			]
+		},
+		{
+			"ID": "20220528214409-cbl4kct",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214409-cbl4kct",
+				"updated": "20220528214449"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单个供应商/多个网络/多个地址"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220528214422-pfklqj3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214422-pfklqj3",
+				"updated": "20220528214524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "很多组织发现仅分配一个单播地址，特别是当它只是暂时分配时，通常无法满足自己的上网需求。"
+				}
+			]
+		},
+		{
+			"ID": "20220528214524-y2j16zq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214524-y2j16zq",
+				"updated": "20220528214551"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于运行Internet服务器（例如Web站点）的组织，通常希望有一个固定的IP地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220528214552-bhp3vl8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214552-bhp3vl8",
+				"updated": "20220528214635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些站点经常有多个局域网，其中："
+				}
+			]
+		},
+		{
+			"ID": "20220528214720-pmrua1n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220528214720-pmrua1n",
+				"updated": "20220528214720"
+			},
+			"Children": [
+				{
+					"ID": "20220528214720-1whmdqz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220528214720-1whmdqz",
+						"updated": "20220528214720"
+					},
+					"Children": [
+						{
+							"ID": "20220528214635-6q2zm6d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528214635-6q2zm6d",
+								"updated": "20220528214720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有些是内部的（通过防火墙于NAT设备于Internet分离）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220528214720-vi1tcwx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220528214720-vi1tcwx",
+						"updated": "20220528214720"
+					},
+					"Children": [
+						{
+							"ID": "20220528214627-y8a0n8r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220528214627-y8a0n8r",
+								"updated": "20220528214720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有些可能是外部网（为Internet提供服务）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220528214656-mczqfpl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528214656-mczqfpl",
+				"updated": "20220528214752"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于这样的网络，通常需要有一个站点或网络管理员，以确定站点需要多个IP地址，如何构建网站的子网，以及哪些子网是内部或外部网。"
+				}
+			]
+		},
+		{
+			"ID": "20220528215042-zrvp8hm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528215042-zrvp8hm",
+				"updated": "20220528215105"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "多个供应商/多个网络/多个地址（多宿主）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220528215106-mu9b68e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528215106-mu9b68e",
+				"updated": "20220528215220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于一些依赖Internet接入来保证持续运营的组织，通常使用一个以上的供应商（称为"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "多宿主"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "），以便在失效时或其他情况下提供冗余连接"
+				}
+			]
+		},
+		{
+			"ID": "20220528215221-6qmbkgk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528215221-6qmbkgk",
+				"updated": "20220528215253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于CIDR，只有一个ISP的组织通常拥有与该ISP相关联的PA地址。"
+				}
+			]
+		},
+		{
+			"ID": "20220528215256-e4l266e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528215256-e4l266e",
+				"updated": "20220528215324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果他们又使用了一个ISP，这样会出现每个主机使用哪个IP的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220528215325-x1glpjy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528215325-x1glpjy",
+				"updated": "20220528215357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前，已有针对多个ISP同时运行的方法，以及在ISP之间转换的指导原则。"
+				}
+			]
+		},
+		{
+			"ID": "20220528215411-0x4szsk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220528215411-0x4szsk",
+				"updated": "20220528215439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于IPv4，有PI或PA地址如何用于多宿主。"
+				}
+			]
+		}
+	]
+}

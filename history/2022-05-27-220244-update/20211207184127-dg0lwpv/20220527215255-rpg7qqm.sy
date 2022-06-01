@@ -1,0 +1,147 @@
+{
+	"ID": "20220527215255-rpg7qqm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220527215255-rpg7qqm",
+		"title": "2022-05-27",
+		"updated": "20220527220215"
+	},
+	"Children": [
+		{
+			"ID": "20220527215255-py7hqof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527215255-py7hqof",
+				"updated": "20220527215503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在Linux主机上查看一台主机使用的组播地址（组），可使用ifconfig和netstat"
+				}
+			]
+		},
+		{
+			"ID": "20220527215845-v4qmsz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527215845-v4qmsz1",
+				"updated": "20220527215851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "$ifconfig"
+				}
+			]
+		},
+		{
+			"ID": "20220527220214-npge01x",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220527220214-npge01x",
+				"updated": "20220527220215"
+			},
+			"Children": [
+				{
+					"ID": "20220527215503-fjd52o6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220527215503-fjd52o6",
+						"updated": "20220527220215"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "eth0: flags=4163\u003cUP,BROADCAST,RUNNING,MULTICAST\u003e  mtu 1500\n        inet 198.148.104.216  netmask 255.255.255.128  broadcast 198.148.104.255\n        inet6 2607:f130:0:111:216:3eff:fe8d:387b  prefixlen 64  scopeid 0x0\u003cglobal\u003e\n        inet6 fe80::216:3eff:fe8d:387b  prefixlen 64  scopeid 0x20\u003clink\u003e\n        ether 00:16:3e:8d:38:7b  txqueuelen 1000  (Ethernet)\n        RX packets 2760782  bytes 491587841 (491.5 MB)\n        RX errors 0  dropped 34  overruns 0  frame 0\n        TX packets 957657  bytes 175008908 (175.0 MB)\n        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220527215444-trfiaee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527215444-trfiaee",
+				"updated": "20220527220150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "$netstat -gn"
+				}
+			]
+		},
+		{
+			"ID": "20220527220206-rz8muab",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220527220206-rz8muab",
+				"updated": "20220527220206"
+			},
+			"Children": [
+				{
+					"ID": "20220527220151-wau5i1q",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220527220151-wau5i1q",
+						"updated": "20220527220206"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "IPv6/IPv4 Group Memberships\nInterface       RefCnt Group"
+						}
+					]
+				},
+				{
+					"ID": "20220527220151-2o97vv6",
+					"Type": "NodeThematicBreak",
+					"Properties": {
+						"id": "20220527220151-2o97vv6",
+						"updated": "20220527220206"
+					}
+				},
+				{
+					"ID": "20220527220151-1v5kyln",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220527220151-1v5kyln",
+						"updated": "20220527220206"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "lo              1      224.0.0.1\neth0            1      224.0.0.1\ndocker0         1      224.0.0.1\ndocker0         1      224.0.0.106\nvethb22477      1      224.0.0.1"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220527215901-1hm8gui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527215901-1hm8gui",
+				"updated": "20220527220132"
+			}
+		},
+		{
+			"ID": "20220527220215-78jfu9s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220527220215-78jfu9s",
+				"updated": "20220527220215"
+			}
+		}
+	]
+}
