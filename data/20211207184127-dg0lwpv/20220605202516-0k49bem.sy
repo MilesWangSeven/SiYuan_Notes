@@ -1,0 +1,271 @@
+{
+	"ID": "20220605202516-0k49bem",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220605202516-0k49bem",
+		"title": "2022-06-05",
+		"updated": "20220605211300"
+	},
+	"Children": [
+		{
+			"ID": "20220605202516-8pa0nks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605202516-8pa0nks",
+				"updated": "20220605202959"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于多个站共享同一个网络，该标准需要在每个以太网接口实现一种分布式算法，以控制一个站发送自己的数据。这种特定方法称为带冲突（或碰撞）检测的载波侦听多路访问（CSMA/CD)。"
+				}
+			]
+		},
+		{
+			"ID": "20220605203000-n1lfm4v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605203000-n1lfm4v",
+				"updated": "20220605203101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "它协调哪些计算机可以访问共享的介质（电缆），同时不需要其他特殊协议或同步。这种相对简单的方法有助于降低成本和促进以太网技术普及。"
+				}
+			]
+		},
+		{
+			"ID": "20220605203101-q76qxmp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605203101-q76qxmp",
+				"updated": "20220605205042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "采用CSMA/CD,一个站（例如计算机）首先检测目前网络上正在发送的信号，并在网络空闲时发送自己的帧。这是协议中“载波侦听”部分。如果其他站碰巧同时发送，发生重叠的电信号被检测为一次碰撞。在这种情况下，每个站等待一个随机时间，然后再次尝试发送。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205042-e9742x5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205042-e9742x5",
+				"updated": "20220605205208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个时间量的选择依据一个统一的概率分布，随后每个碰撞被检测到的时间长度加倍。最终，每个站会得到机会发送，或在尝试一定次数（传统以太网为16）后超时。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205210-ib9hswv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205210-ib9hswv",
+				"updated": "20220605205233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "采用CSMA/CD，在任何给定的时间内，网络中只能有一个帧传输。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205235-xwtaznm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205235-xwtaznm",
+				"updated": "20220605205455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如CSMA/CD这样的访问方法更正式的名称为介质访问控制（MAC）协议。MAC协议由很多类型，有些基于每个站尝试独立使用网络（例如CSMA/CD基于竞争的协议），有些基于预先安排的协调（例如依据为每个站分配的时段发送）。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205510-nrw5pjc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205510-nrw5pjc",
+				"updated": "20220605205934"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随着10Mb/s以太网的发展，更快的计算机和基础设施使得局域网速度不断提升。由于以太网的普及，已取得以下显著创新和成果：其速度从10Mb/s增加到100Mb/s、1000Mb/s、10Gb/s，现在甚至更高。10Gb/s技术在大型数据中心和大型企业中越来越普遍，并且已被证实可达到100Gb/s的速度。最早（研究）的以太网速度为3Mb/s，但DIX（Digital、Intel、Xerox）标准可达到10Mb/s，它在一条共享的物理电缆或由电子中继器互联的一组电缆上运行。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205937-2btxk2q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205937-2btxk2q",
+				"updated": "20220605210215"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "20世纪90年代初，共享电缆已很大程度上被双绞线（类似电话线，通常称为“10BASE-T”）代替"
+				}
+			]
+		},
+		{
+			"ID": "20220605210215-6uk5p67",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605210215-6uk5p67",
+				"updated": "20220605210322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随着100Mb/s(也称为“快速以太网”，最流行的版本是“100BASE-TX”）的发展，基于竞争的MAC协议已经变得不流行。"
+				}
+			]
+		},
+		{
+			"ID": "20220605210328-8eu7gzd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605210328-8eu7gzd",
+				"updated": "20220605210418"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "相反，局域网中每个站之间的线路通常不共享，而是提供了一个专用的星形拓扑结构。这可以通过以太网"
+				},
+				{
+					"Type": "NodeTag",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeTagOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "交换机"
+						},
+						{
+							"Type": "NodeTagCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "来实现。"
+				}
+			]
+		},
+		{
+			"ID": "20220605210419-2z3szlz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605210419-2z3szlz",
+				"updated": "20220605210525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个交换式以太网包含一个或多个站，每个站使用一条专线的线路连接到一个交换机端口。"
+				}
+			]
+		},
+		{
+			"ID": "20220605210525-au6pvtv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605210525-au6pvtv",
+				"updated": "20220605210639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在大多数情况下，交换式以太网以全双工方式运行，并且不需要使用CSMA/CD算法。交换机可以通过交换机端口级联形成更大的以太网，该端口有时也称为“上行端口”"
+				}
+			]
+		},
+		{
+			"ID": "20220605210642-tqopely",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605210642-tqopely",
+				"updated": "20220605210642"
+			}
+		},
+		{
+			"ID": "20220605210648-na622tj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605210648-na622tj",
+				"updated": "20220605210828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前，交换机为以太网中的每个站提供同时发送和接收数据的能力（称为“全双工以太网”）。虽然1000Mb/s以太网（1000BASE-T)仍支持半双工（一次一个方向）操作，但相对全双工以太网来说，它很少使用。"
+				}
+			]
+		},
+		{
+			"ID": "20220605210841-1e8k3ks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605210841-1e8k3ks",
+				"updated": "20220605211052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当前连接Internet的最流行技术之一是无线网络，常见的无线局域网（WLAN）IEEE标准称为无线保真或Wi-Fi，有时也称为“无线以太网”或802.11。虽然这个标准与802有限以太网标准不同，但帧格式和通用接口大部分来自802.3，并且都是IEEE802局域网标准的一部分。"
+				}
+			]
+		},
+		{
+			"ID": "20220605211052-5p9buqs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605211052-5p9buqs",
+				"updated": "20220605211117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此，TCP/IP用于以太网的大部分功能，也可用于Wi-Fi网络。"
+				}
+			]
+		},
+		{
+			"ID": "20220605211119-bkiq10l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605211119-bkiq10l",
+				"updated": "20220605211300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先，我们描绘一个建立家庭和企业网络的所有IEEE 802标准的蓝图。这里也包括那些涉及城域网的IEEE标准，例如IEEE 802.16（WiMAX）和蜂窝网络中的异构网络无缝切换标准（IEEE 802.21）"
+				}
+			]
+		},
+		{
+			"ID": "20220605205643-xs6eit8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205643-xs6eit8",
+				"updated": "20220605205643"
+			}
+		}
+	]
+}

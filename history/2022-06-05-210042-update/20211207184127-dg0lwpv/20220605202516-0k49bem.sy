@@ -1,0 +1,131 @@
+{
+	"ID": "20220605202516-0k49bem",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220605202516-0k49bem",
+		"title": "2022-06-05",
+		"updated": "20220605205937"
+	},
+	"Children": [
+		{
+			"ID": "20220605202516-8pa0nks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605202516-8pa0nks",
+				"updated": "20220605202959"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于多个站共享同一个网络，该标准需要在每个以太网接口实现一种分布式算法，以控制一个站发送自己的数据。这种特定方法称为带冲突（或碰撞）检测的载波侦听多路访问（CSMA/CD)。"
+				}
+			]
+		},
+		{
+			"ID": "20220605203000-n1lfm4v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605203000-n1lfm4v",
+				"updated": "20220605203101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "它协调哪些计算机可以访问共享的介质（电缆），同时不需要其他特殊协议或同步。这种相对简单的方法有助于降低成本和促进以太网技术普及。"
+				}
+			]
+		},
+		{
+			"ID": "20220605203101-q76qxmp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605203101-q76qxmp",
+				"updated": "20220605205042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "采用CSMA/CD,一个站（例如计算机）首先检测目前网络上正在发送的信号，并在网络空闲时发送自己的帧。这是协议中“载波侦听”部分。如果其他站碰巧同时发送，发生重叠的电信号被检测为一次碰撞。在这种情况下，每个站等待一个随机时间，然后再次尝试发送。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205042-e9742x5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205042-e9742x5",
+				"updated": "20220605205208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个时间量的选择依据一个统一的概率分布，随后每个碰撞被检测到的时间长度加倍。最终，每个站会得到机会发送，或在尝试一定次数（传统以太网为16）后超时。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205210-ib9hswv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205210-ib9hswv",
+				"updated": "20220605205233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "采用CSMA/CD，在任何给定的时间内，网络中只能有一个帧传输。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205235-xwtaznm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205235-xwtaznm",
+				"updated": "20220605205455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如CSMA/CD这样的访问方法更正式的名称为介质访问控制（MAC）协议。MAC协议由很多类型，有些基于每个站尝试独立使用网络（例如CSMA/CD基于竞争的协议），有些基于预先安排的协调（例如依据为每个站分配的时段发送）。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205510-nrw5pjc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205510-nrw5pjc",
+				"updated": "20220605205934"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随着10Mb/s以太网的发展，更快的计算机和基础设施使得局域网速度不断提升。由于以太网的普及，已取得以下显著创新和成果：其速度从10Mb/s增加到100Mb/s、1000Mb/s、10Gb/s，现在甚至更高。10Gb/s技术在大型数据中心和大型企业中越来越普遍，并且已被证实可达到100Gb/s的速度。最早（研究）的以太网速度为3Mb/s，但DIX（Digital、Intel、Xerox）标准可达到10Mb/s，它在一条共享的物理电缆或由电子中继器互联的一组电缆上运行。"
+				}
+			]
+		},
+		{
+			"ID": "20220605205937-2btxk2q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205937-2btxk2q",
+				"updated": "20220605205937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "20世纪"
+				}
+			]
+		},
+		{
+			"ID": "20220605205643-xs6eit8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605205643-xs6eit8",
+				"updated": "20220605205643"
+			}
+		}
+	]
+}

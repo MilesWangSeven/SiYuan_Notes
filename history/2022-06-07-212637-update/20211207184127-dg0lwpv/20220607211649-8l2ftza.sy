@@ -1,0 +1,319 @@
+{
+	"ID": "20220607211649-8l2ftza",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220607211649-8l2ftza",
+		"title": "2022-06-07",
+		"updated": "20220607212636"
+	},
+	"Children": [
+		{
+			"ID": "20220607211649-4ihpouo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211649-4ihpouo",
+				"updated": "20220607211731"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "名称\t\t\t\t\t描述"
+				}
+			]
+		},
+		{
+			"ID": "20220607211717-4hx4fik",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211717-4hx4fik",
+				"updated": "20220607211747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11a\t\t\t\t运行在5GHz的54Mb/s的无线局域网"
+				}
+			]
+		},
+		{
+			"ID": "20220607211747-hxrozgh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211747-hxrozgh",
+				"updated": "20220607211810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11b\t\t\t\t运行在2.4GHz的11Mb/s的无线局域网"
+				}
+			]
+		},
+		{
+			"ID": "20220607211810-nm1zst6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211810-nm1zst6",
+				"updated": "20220607211824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11e\t\t\t\t针对802.11的Qos增强"
+				}
+			]
+		},
+		{
+			"ID": "20220607211825-llq09sg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211825-llq09sg",
+				"updated": "20220607211854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11g\t\t\t\t运行在2.4GHz的54Mb/s的无线局域网"
+				}
+			]
+		},
+		{
+			"ID": "20220607211854-puai6gd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211854-puai6gd",
+				"updated": "20220607211923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11h\t\t\t\t频谱/电源管理扩展"
+				}
+			]
+		},
+		{
+			"ID": "20220607211923-15t4i54",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211923-15t4i54",
+				"updated": "20220607211941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11i\t\t\t\t安全增强/代替WEP"
+				}
+			]
+		},
+		{
+			"ID": "20220607211942-6d2xg1g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211942-6d2xg1g",
+				"updated": "20220607211957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11j\t\t\t\t运行在4.9~5.0Hz（日本）"
+				}
+			]
+		},
+		{
+			"ID": "20220607211957-gitb32l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607211957-gitb32l",
+				"updated": "20220607212046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11n\t\t\t\t运行在2.4GHz和5GHz的6.5~600Mb/s的无线局域网，使用可选的MIMO和40MHz的信道"
+				}
+			]
+		},
+		{
+			"ID": "20220607212053-f1xoou8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212053-f1xoou8",
+				"updated": "20220607212107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11s\t\t\t\t网状网，拥塞控制"
+				}
+			]
+		},
+		{
+			"ID": "20220607212107-oimsmig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212107-oimsmig",
+				"updated": "20220607212137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.11y\t\t\t\t运行在3.7GHz的54Mb/s的无线局域网（许可的）"
+				}
+			]
+		},
+		{
+			"ID": "20220607212138-gig7vsy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212138-gig7vsy",
+				"updated": "20220607212219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.16\t\t\t\t微波存取全球互通技术（WiMAX）"
+				}
+			]
+		},
+		{
+			"ID": "20220607212219-5hprx8r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212219-5hprx8r",
+				"updated": "20220607212244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.16d\t\t\t\t固定的无线城域网标准（WiMAX）"
+				}
+			]
+		},
+		{
+			"ID": "20220607212245-xnjm3yl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212245-xnjm3yl",
+				"updated": "20220607212310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.16e\t\t\t\t固定/移动的无线城域网标准（WiMAX）"
+				}
+			]
+		},
+		{
+			"ID": "20220607212311-ss8gebm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212311-ss8gebm",
+				"updated": "20220607212321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.16h\t\t\t\t改进的共存机制"
+				}
+			]
+		},
+		{
+			"ID": "20220607212321-0ha5dat",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212321-0ha5dat",
+				"updated": "20220607212333"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.16j\t\t\t\t802.16中的多跳中继"
+				}
+			]
+		},
+		{
+			"ID": "20220607212333-4edx79y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212333-4edx79y",
+				"updated": "20220607212343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.16k\t\t\t\t802.16网桥"
+				}
+			]
+		},
+		{
+			"ID": "20220607212343-o25pnhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212343-o25pnhv",
+				"updated": "20220607212352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "802.21\t\t\t\t介质无关切换"
+				}
+			]
+		},
+		{
+			"ID": "20220607212352-36jvwxj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212352-36jvwxj",
+				"updated": "20220607212442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除802.3、802.11、802.16标准定义的特定类型局域网外，还有一些相关标准适用于所有IEEE标准的局域网技术。"
+				}
+			]
+		},
+		{
+			"ID": "20220607212443-8zai3k3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212443-8zai3k3",
+				"updated": "20220607212518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最常见的是定义逻辑链路控制（LLC）的802.2标准，其帧头部在802网络的帧格式中常见。"
+				}
+			]
+		},
+		{
+			"ID": "20220607212519-4d61f7k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212519-4d61f7k",
+				"updated": "20220607212610"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在IEEE的术语中，LLC和MAC是链路层的“子层”，LLC（多数帧格式）对每种网络都是通用的，而MAC层可能不同。"
+				}
+			]
+		},
+		{
+			"ID": "20220607212617-pe3hakn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220607212617-pe3hakn",
+				"updated": "20220607212636"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "虽然最初的以太网使用CSMA/CD，但无线局域网常使用"
+				}
+			]
+		}
+	]
+}

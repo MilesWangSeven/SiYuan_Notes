@@ -247,7 +247,6 @@
     "title": "2022-05-31"
   },
   {
-    "active": true,
     "children": {
   "action": "",
   "blockId": "20220601210650-9km8opp",
@@ -258,6 +257,43 @@
     "instance": "Tab",
     "pin": false,
     "title": "2022-06-01"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220605202516-0k49bem",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-06-05"
+  },
+  {
+    "children": {
+  "action": "",
+  "blockId": "20220606213313-j7xkrx1",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-06-06"
+  },
+  {
+    "active": true,
+    "children": {
+  "action": "",
+  "blockId": "20220607211649-8l2ftza",
+  "instance": "Editor",
+  "mode": "wysiwyg"
+},
+    "docIcon": "",
+    "instance": "Tab",
+    "pin": false,
+    "title": "2022-06-07"
   }
 ],
     "height": "",
@@ -860,7 +896,7 @@
     "virtualRefDoc": false
   },
   "stat": {
-    "docCount": 97
+    "docCount": 100
   },
   "api": {
     "token": "oylvf4hp7d8ojz2j"

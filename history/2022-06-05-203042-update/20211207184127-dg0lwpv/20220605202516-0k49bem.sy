@@ -1,0 +1,39 @@
+{
+	"ID": "20220605202516-0k49bem",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220605202516-0k49bem",
+		"title": "2022-06-05",
+		"updated": "20220605203041"
+	},
+	"Children": [
+		{
+			"ID": "20220605202516-8pa0nks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605202516-8pa0nks",
+				"updated": "20220605202959"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于多个站共享同一个网络，该标准需要在每个以太网接口实现一种分布式算法，以控制一个站发送自己的数据。这种特定方法称为带冲突（或碰撞）检测的载波侦听多路访问（CSMA/CD)。"
+				}
+			]
+		},
+		{
+			"ID": "20220605203000-n1lfm4v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220605203000-n1lfm4v",
+				"updated": "20220605203041"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "它协调哪些计算机可以访问共享的介质（电缆），同时不需要其他特殊协议或同步。这种相对简单的"
+				}
+			]
+		}
+	]
+}
